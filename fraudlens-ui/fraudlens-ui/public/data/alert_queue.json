@@ -1,0 +1,5402 @@
+[
+ {
+  "rank": 1,
+  "risk_score": 3.84,
+  "fraud_probability": 0.9168,
+  "amount": 4170.97,
+  "expected_loss_avoided": 3823.97,
+  "expected_net_benefit": 3818.97,
+  "hour": 14,
+  "indicators": [
+   {
+    "feature": "V10",
+    "value": -5.7
+   },
+   {
+    "feature": "V11",
+    "value": 3.0
+   },
+   {
+    "feature": "V4",
+    "value": 3.3
+   }
+  ],
+  "action": "HOLD & CALL CUSTOMER",
+  "note": "#1 | P(fraud) 92% | amount 4,170.97 units at hour 14 | model indicators: V10=-5.7, V11=+3.0, V4=+3.3 | action: HOLD & CALL CUSTOMER",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 2,
+  "risk_score": 5.08,
+  "fraud_probability": 0.9599,
+  "amount": 3684.2,
+  "expected_loss_avoided": 3536.39,
+  "expected_net_benefit": 3531.39,
+  "hour": 8,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 7.4
+   },
+   {
+    "feature": "V10",
+    "value": -4.7
+   },
+   {
+    "feature": "V11",
+    "value": 4.3
+   }
+  ],
+  "action": "HOLD & CALL CUSTOMER",
+  "note": "#2 | P(fraud) 96% | amount 3,684.20 units at hour 08 | model indicators: V4=+7.4, V10=-4.7, V11=+4.3 | action: HOLD & CALL CUSTOMER",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 3,
+  "risk_score": 3.468,
+  "fraud_probability": 0.8973,
+  "amount": 2904.06,
+  "expected_loss_avoided": 2605.86,
+  "expected_net_benefit": 2600.86,
+  "hour": 3,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -6.6
+   },
+   {
+    "feature": "V11",
+    "value": 3.4
+   },
+   {
+    "feature": "V16",
+    "value": -3.8
+   }
+  ],
+  "action": "HOLD & CALL CUSTOMER",
+  "note": "#3 | P(fraud) 90% | amount 2,904.06 units at hour 03 | model indicators: V12=-6.6, V11=+3.4, V16=-3.8 | action: HOLD & CALL CUSTOMER",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 4,
+  "risk_score": 0.897,
+  "fraud_probability": 0.6366,
+  "amount": 3168.52,
+  "expected_loss_avoided": 2016.99,
+  "expected_net_benefit": 2011.99,
+  "hour": 0,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -8.5
+   },
+   {
+    "feature": "V14",
+    "value": -9.6
+   },
+   {
+    "feature": "V4",
+    "value": 4.4
+   }
+  ],
+  "action": "HOLD & CALL CUSTOMER",
+  "note": "#4 | P(fraud) 64% | amount 3,168.52 units at hour 00 | model indicators: V12=-8.5, V14=-9.6, V4=+4.4 | action: HOLD & CALL CUSTOMER",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 5,
+  "risk_score": 2.883,
+  "fraud_probability": 0.8584,
+  "amount": 2323.16,
+  "expected_loss_avoided": 1994.16,
+  "expected_net_benefit": 1989.16,
+  "hour": 12,
+  "indicators": [
+   {
+    "feature": "V7",
+    "value": -6.6
+   },
+   {
+    "feature": "V10",
+    "value": -6.8
+   },
+   {
+    "feature": "V3",
+    "value": -5.0
+   }
+  ],
+  "action": "HOLD & CALL CUSTOMER",
+  "note": "#5 | P(fraud) 86% | amount 2,323.16 units at hour 12 | model indicators: V7=-6.6, V10=-6.8, V3=-5.0 | action: HOLD & CALL CUSTOMER",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 6,
+  "risk_score": -2.166,
+  "fraud_probability": 0.2052,
+  "amount": 8000,
+  "expected_loss_avoided": 1641.89,
+  "expected_net_benefit": 1636.89,
+  "hour": 3,
+  "indicators": [
+   {
+    "feature": "LogAmount",
+    "value": 9.0
+   },
+   {
+    "feature": "V10",
+    "value": -2.4
+   },
+   {
+    "feature": "V14",
+    "value": -1.8
+   }
+  ],
+  "action": "HOLD & CALL CUSTOMER",
+  "note": "#6 | P(fraud) 21% | amount 8,000.00 units at hour 03 | model indicators: LogAmount=+9.0, V10=-2.4, V14=-1.8 | action: HOLD & CALL CUSTOMER",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 7,
+  "risk_score": 1.365,
+  "fraud_probability": 0.7012,
+  "amount": 1318.24,
+  "expected_loss_avoided": 924.41,
+  "expected_net_benefit": 919.41,
+  "hour": 5,
+  "indicators": [
+   {
+    "feature": "V7",
+    "value": -3.7
+   },
+   {
+    "feature": "V11",
+    "value": 6.6
+   },
+   {
+    "feature": "V10",
+    "value": -5.4
+   }
+  ],
+  "action": "HOLD & CALL CUSTOMER",
+  "note": "#7 | P(fraud) 70% | amount 1,318.24 units at hour 05 | model indicators: V7=-3.7, V11=+6.6, V10=-5.4 | action: HOLD & CALL CUSTOMER",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 8,
+  "risk_score": 1.311,
+  "fraud_probability": 0.6941,
+  "amount": 1283.0,
+  "expected_loss_avoided": 890.56,
+  "expected_net_benefit": 885.56,
+  "hour": 1,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 1.4
+   },
+   {
+    "feature": "V10",
+    "value": -3.7
+   },
+   {
+    "feature": "V17",
+    "value": -10.5
+   }
+  ],
+  "action": "HOLD & CALL CUSTOMER",
+  "note": "#8 | P(fraud) 69% | amount 1,283.00 units at hour 01 | model indicators: V4=+1.4, V10=-3.7, V17=-10.5 | action: HOLD & CALL CUSTOMER",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 9,
+  "risk_score": 1.69,
+  "fraud_probability": 0.7419,
+  "amount": 900.38,
+  "expected_loss_avoided": 668.04,
+  "expected_net_benefit": 663.04,
+  "hour": 2,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -9.5
+   },
+   {
+    "feature": "V3",
+    "value": -3.2
+   },
+   {
+    "feature": "V16",
+    "value": -5.2
+   }
+  ],
+  "action": "HOLD & CALL CUSTOMER",
+  "note": "#9 | P(fraud) 74% | amount 900.38 units at hour 02 | model indicators: V14=-9.5, V3=-3.2, V16=-5.2 | action: HOLD & CALL CUSTOMER",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 10,
+  "risk_score": 3.957,
+  "fraud_probability": 0.9222,
+  "amount": 712.78,
+  "expected_loss_avoided": 657.34,
+  "expected_net_benefit": 652.34,
+  "hour": 4,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -7.9
+   },
+   {
+    "feature": "V11",
+    "value": 4.3
+   },
+   {
+    "feature": "V12",
+    "value": -2.7
+   }
+  ],
+  "action": "HOLD & CALL CUSTOMER",
+  "note": "#10 | P(fraud) 92% | amount 712.78 units at hour 04 | model indicators: V14=-7.9, V11=+4.3, V12=-2.7 | action: HOLD & CALL CUSTOMER",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 11,
+  "risk_score": 4.11,
+  "fraud_probability": 0.9288,
+  "amount": 561.61,
+  "expected_loss_avoided": 521.65,
+  "expected_net_benefit": 516.65,
+  "hour": 2,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -4.9
+   },
+   {
+    "feature": "V17",
+    "value": -9.1
+   },
+   {
+    "feature": "V12",
+    "value": -2.5
+   }
+  ],
+  "action": "HOLD & CALL CUSTOMER",
+  "note": "#11 | P(fraud) 93% | amount 561.61 units at hour 02 | model indicators: V14=-4.9, V17=-9.1, V12=-2.5 | action: HOLD & CALL CUSTOMER",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 12,
+  "risk_score": 2.437,
+  "fraud_probability": 0.821,
+  "amount": 590.5,
+  "expected_loss_avoided": 484.79,
+  "expected_net_benefit": 479.79,
+  "hour": 5,
+  "indicators": [
+   {
+    "feature": "V10",
+    "value": -3.6
+   },
+   {
+    "feature": "V14",
+    "value": -4.0
+   },
+   {
+    "feature": "V11",
+    "value": 3.8
+   }
+  ],
+  "action": "HOLD & CALL CUSTOMER",
+  "note": "#12 | P(fraud) 82% | amount 590.50 units at hour 05 | model indicators: V10=-3.6, V14=-4.0, V11=+3.8 | action: HOLD & CALL CUSTOMER",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 13,
+  "risk_score": 6.25,
+  "fraud_probability": 0.9803,
+  "amount": 480.4,
+  "expected_loss_avoided": 470.93,
+  "expected_net_benefit": 465.93,
+  "hour": 17,
+  "indicators": [
+   {
+    "feature": "V3",
+    "value": -6.3
+   },
+   {
+    "feature": "LogAmount",
+    "value": 6.2
+   },
+   {
+    "feature": "V17",
+    "value": -2.2
+   }
+  ],
+  "action": "HOLD & CALL CUSTOMER",
+  "note": "#13 | P(fraud) 98% | amount 480.40 units at hour 17 | model indicators: V3=-6.3, LogAmount=+6.2, V17=-2.2 | action: HOLD & CALL CUSTOMER",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 14,
+  "risk_score": -4.486,
+  "fraud_probability": 0.0571,
+  "amount": 8000,
+  "expected_loss_avoided": 456.95,
+  "expected_net_benefit": 451.95,
+  "hour": 4,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 2.3
+   },
+   {
+    "feature": "V11",
+    "value": 3.6
+   },
+   {
+    "feature": "V3",
+    "value": -2.0
+   }
+  ],
+  "action": "HOLD & CALL CUSTOMER",
+  "note": "#14 | P(fraud) 6% | amount 8,000.00 units at hour 04 | model indicators: V4=+2.3, V11=+3.6, V3=-2.0 | action: HOLD & CALL CUSTOMER",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 15,
+  "risk_score": -0.955,
+  "fraud_probability": 0.3551,
+  "amount": 1284.59,
+  "expected_loss_avoided": 456.11,
+  "expected_net_benefit": 451.11,
+  "hour": 14,
+  "indicators": [
+   {
+    "feature": "V10",
+    "value": -6.4
+   },
+   {
+    "feature": "V3",
+    "value": -4.6
+   },
+   {
+    "feature": "V16",
+    "value": -5.0
+   }
+  ],
+  "action": "HOLD & CALL CUSTOMER",
+  "note": "#15 | P(fraud) 36% | amount 1,284.59 units at hour 14 | model indicators: V10=-6.4, V3=-4.6, V16=-5.0 | action: HOLD & CALL CUSTOMER",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 16,
+  "risk_score": 4.389,
+  "fraud_probability": 0.9395,
+  "amount": 484.6,
+  "expected_loss_avoided": 455.29,
+  "expected_net_benefit": 450.29,
+  "hour": 0,
+  "indicators": [
+   {
+    "feature": "V11",
+    "value": 5.2
+   },
+   {
+    "feature": "V14",
+    "value": -10.8
+   },
+   {
+    "feature": "V12",
+    "value": -4.5
+   }
+  ],
+  "action": "HOLD & CALL CUSTOMER",
+  "note": "#16 | P(fraud) 94% | amount 484.60 units at hour 00 | model indicators: V11=+5.2, V14=-10.8, V12=-4.5 | action: HOLD & CALL CUSTOMER",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 17,
+  "risk_score": 4.063,
+  "fraud_probability": 0.9269,
+  "amount": 453.24,
+  "expected_loss_avoided": 420.09,
+  "expected_net_benefit": 415.09,
+  "hour": 10,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -8.2
+   },
+   {
+    "feature": "V12",
+    "value": -4.7
+   },
+   {
+    "feature": "V10",
+    "value": -5.6
+   }
+  ],
+  "action": "HOLD & CALL CUSTOMER",
+  "note": "#17 | P(fraud) 93% | amount 453.24 units at hour 10 | model indicators: V14=-8.2, V12=-4.7, V10=-5.6 | action: HOLD & CALL CUSTOMER",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 18,
+  "risk_score": 2.203,
+  "fraud_probability": 0.7985,
+  "amount": 524.41,
+  "expected_loss_avoided": 418.73,
+  "expected_net_benefit": 413.73,
+  "hour": 10,
+  "indicators": [
+   {
+    "feature": "V17",
+    "value": -0.9
+   },
+   {
+    "feature": "V3",
+    "value": -7.5
+   },
+   {
+    "feature": "V10",
+    "value": -0.8
+   }
+  ],
+  "action": "HOLD & CALL CUSTOMER",
+  "note": "#18 | P(fraud) 80% | amount 524.41 units at hour 10 | model indicators: V17=-0.9, V3=-7.5, V10=-0.8 | action: HOLD & CALL CUSTOMER",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 19,
+  "risk_score": -2.658,
+  "fraud_probability": 0.1596,
+  "amount": 2612.97,
+  "expected_loss_avoided": 416.98,
+  "expected_net_benefit": 411.98,
+  "hour": 3,
+  "indicators": [
+   {
+    "feature": "V10",
+    "value": -7.7
+   },
+   {
+    "feature": "V14",
+    "value": -9.5
+   },
+   {
+    "feature": "V4",
+    "value": 2.8
+   }
+  ],
+  "action": "HOLD & CALL CUSTOMER",
+  "note": "#19 | P(fraud) 16% | amount 2,612.97 units at hour 03 | model indicators: V10=-7.7, V14=-9.5, V4=+2.8 | action: HOLD & CALL CUSTOMER",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 20,
+  "risk_score": 3.091,
+  "fraud_probability": 0.8735,
+  "amount": 464.04,
+  "expected_loss_avoided": 405.33,
+  "expected_net_benefit": 400.33,
+  "hour": 12,
+  "indicators": [
+   {
+    "feature": "V16",
+    "value": -6.5
+   },
+   {
+    "feature": "V3",
+    "value": -6.7
+   },
+   {
+    "feature": "V12",
+    "value": -5.2
+   }
+  ],
+  "action": "HOLD & CALL CUSTOMER",
+  "note": "#20 | P(fraud) 87% | amount 464.04 units at hour 12 | model indicators: V16=-6.5, V3=-6.7, V12=-5.2 | action: HOLD & CALL CUSTOMER",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 21,
+  "risk_score": 3.157,
+  "fraud_probability": 0.878,
+  "amount": 457.21,
+  "expected_loss_avoided": 401.42,
+  "expected_net_benefit": 396.42,
+  "hour": 11,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -7.4
+   },
+   {
+    "feature": "V17",
+    "value": -9.5
+   },
+   {
+    "feature": "V10",
+    "value": -6.3
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#21 | P(fraud) 88% | amount 457.21 units at hour 11 | model indicators: V12=-7.4, V17=-9.5, V10=-6.3 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 22,
+  "risk_score": -3.326,
+  "fraud_probability": 0.1112,
+  "amount": 3562.19,
+  "expected_loss_avoided": 396.08,
+  "expected_net_benefit": 391.08,
+  "hour": 15,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -8.9
+   },
+   {
+    "feature": "V17",
+    "value": -5.5
+   },
+   {
+    "feature": "V4",
+    "value": 3.2
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#22 | P(fraud) 11% | amount 3,562.19 units at hour 15 | model indicators: V14=-8.9, V17=-5.5, V4=+3.2 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 23,
+  "risk_score": -2.083,
+  "fraud_probability": 0.2138,
+  "amount": 1849.62,
+  "expected_loss_avoided": 395.46,
+  "expected_net_benefit": 390.46,
+  "hour": 5,
+  "indicators": [
+   {
+    "feature": "V3",
+    "value": -4.6
+   },
+   {
+    "feature": "V14",
+    "value": -7.7
+   },
+   {
+    "feature": "V10",
+    "value": -5.5
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#23 | P(fraud) 21% | amount 1,849.62 units at hour 05 | model indicators: V3=-4.6, V14=-7.7, V10=-5.5 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 24,
+  "risk_score": -1.639,
+  "fraud_probability": 0.2642,
+  "amount": 1422.87,
+  "expected_loss_avoided": 375.94,
+  "expected_net_benefit": 370.94,
+  "hour": 17,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -11.1
+   },
+   {
+    "feature": "V7",
+    "value": -6.3
+   },
+   {
+    "feature": "V17",
+    "value": -6.0
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#24 | P(fraud) 26% | amount 1,422.87 units at hour 17 | model indicators: V14=-11.1, V7=-6.3, V17=-6.0 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 25,
+  "risk_score": 3.395,
+  "fraud_probability": 0.893,
+  "amount": 409.41,
+  "expected_loss_avoided": 365.61,
+  "expected_net_benefit": 360.61,
+  "hour": 3,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -5.0
+   },
+   {
+    "feature": "V17",
+    "value": -4.9
+   },
+   {
+    "feature": "V14",
+    "value": -5.5
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#25 | P(fraud) 89% | amount 409.41 units at hour 03 | model indicators: V12=-5.0, V17=-4.9, V14=-5.5 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 26,
+  "risk_score": -3.182,
+  "fraud_probability": 0.1204,
+  "amount": 3002.13,
+  "expected_loss_avoided": 361.44,
+  "expected_net_benefit": 356.44,
+  "hour": 13,
+  "indicators": [
+   {
+    "feature": "V10",
+    "value": -5.0
+   },
+   {
+    "feature": "V12",
+    "value": -5.2
+   },
+   {
+    "feature": "V3",
+    "value": -8.1
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#26 | P(fraud) 12% | amount 3,002.13 units at hour 13 | model indicators: V10=-5.0, V12=-5.2, V3=-8.1 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 27,
+  "risk_score": 3.018,
+  "fraud_probability": 0.8683,
+  "amount": 381.73,
+  "expected_loss_avoided": 331.46,
+  "expected_net_benefit": 326.46,
+  "hour": 5,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -7.1
+   },
+   {
+    "feature": "V17",
+    "value": -9.2
+   },
+   {
+    "feature": "LogAmount",
+    "value": 5.9
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#27 | P(fraud) 87% | amount 381.73 units at hour 05 | model indicators: V12=-7.1, V17=-9.2, LogAmount=+5.9 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 28,
+  "risk_score": 3.718,
+  "fraud_probability": 0.9108,
+  "amount": 359.97,
+  "expected_loss_avoided": 327.86,
+  "expected_net_benefit": 322.86,
+  "hour": 3,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -7.1
+   },
+   {
+    "feature": "V11",
+    "value": 1.7
+   },
+   {
+    "feature": "V4",
+    "value": 4.0
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#28 | P(fraud) 91% | amount 359.97 units at hour 03 | model indicators: V14=-7.1, V11=+1.7, V4=+4.0 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 29,
+  "risk_score": 2.665,
+  "fraud_probability": 0.841,
+  "amount": 388.81,
+  "expected_loss_avoided": 326.99,
+  "expected_net_benefit": 321.99,
+  "hour": 0,
+  "indicators": [
+   {
+    "feature": "V7",
+    "value": -8.7
+   },
+   {
+    "feature": "V10",
+    "value": -2.9
+   },
+   {
+    "feature": "V12",
+    "value": -10.2
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#29 | P(fraud) 84% | amount 388.81 units at hour 00 | model indicators: V7=-8.7, V10=-2.9, V12=-10.2 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 30,
+  "risk_score": 2.419,
+  "fraud_probability": 0.8193,
+  "amount": 390.52,
+  "expected_loss_avoided": 319.96,
+  "expected_net_benefit": 314.96,
+  "hour": 1,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -5.7
+   },
+   {
+    "feature": "V10",
+    "value": -3.7
+   },
+   {
+    "feature": "V14",
+    "value": -4.1
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#30 | P(fraud) 82% | amount 390.52 units at hour 01 | model indicators: V12=-5.7, V10=-3.7, V14=-4.1 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 31,
+  "risk_score": 3.535,
+  "fraud_probability": 0.9011,
+  "amount": 354.96,
+  "expected_loss_avoided": 319.85,
+  "expected_net_benefit": 314.85,
+  "hour": 2,
+  "indicators": [
+   {
+    "feature": "LogAmount",
+    "value": 5.9
+   },
+   {
+    "feature": "V17",
+    "value": -5.3
+   },
+   {
+    "feature": "V4",
+    "value": 1.0
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#31 | P(fraud) 90% | amount 354.96 units at hour 02 | model indicators: LogAmount=+5.9, V17=-5.3, V4=+1.0 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 32,
+  "risk_score": 4.475,
+  "fraud_probability": 0.9425,
+  "amount": 338.34,
+  "expected_loss_avoided": 318.88,
+  "expected_net_benefit": 313.88,
+  "hour": 15,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -4.8
+   },
+   {
+    "feature": "V14",
+    "value": -10.3
+   },
+   {
+    "feature": "V10",
+    "value": -3.8
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#32 | P(fraud) 94% | amount 338.34 units at hour 15 | model indicators: V12=-4.8, V14=-10.3, V10=-3.8 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 33,
+  "risk_score": 1.55,
+  "fraud_probability": 0.7248,
+  "amount": 437.37,
+  "expected_loss_avoided": 317.03,
+  "expected_net_benefit": 312.03,
+  "hour": 15,
+  "indicators": [
+   {
+    "feature": "V3",
+    "value": -3.9
+   },
+   {
+    "feature": "V10",
+    "value": -6.4
+   },
+   {
+    "feature": "V12",
+    "value": -3.3
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#33 | P(fraud) 72% | amount 437.37 units at hour 15 | model indicators: V3=-3.9, V10=-6.4, V12=-3.3 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 34,
+  "risk_score": 2.044,
+  "fraud_probability": 0.782,
+  "amount": 401.15,
+  "expected_loss_avoided": 313.71,
+  "expected_net_benefit": 308.71,
+  "hour": 22,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -5.5
+   },
+   {
+    "feature": "V10",
+    "value": -4.7
+   },
+   {
+    "feature": "V12",
+    "value": -4.0
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#34 | P(fraud) 78% | amount 401.15 units at hour 22 | model indicators: V14=-5.5, V10=-4.7, V12=-4.0 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 35,
+  "risk_score": 3.322,
+  "fraud_probability": 0.8886,
+  "amount": 349.81,
+  "expected_loss_avoided": 310.83,
+  "expected_net_benefit": 305.83,
+  "hour": 2,
+  "indicators": [
+   {
+    "feature": "V17",
+    "value": -7.1
+   },
+   {
+    "feature": "V14",
+    "value": -5.8
+   },
+   {
+    "feature": "V4",
+    "value": 3.1
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#35 | P(fraud) 89% | amount 349.81 units at hour 02 | model indicators: V17=-7.1, V14=-5.8, V4=+3.1 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 36,
+  "risk_score": 4.192,
+  "fraud_probability": 0.9321,
+  "amount": 329.76,
+  "expected_loss_avoided": 307.38,
+  "expected_net_benefit": 302.38,
+  "hour": 5,
+  "indicators": [
+   {
+    "feature": "V17",
+    "value": -3.4
+   },
+   {
+    "feature": "V7",
+    "value": -5.1
+   },
+   {
+    "feature": "V12",
+    "value": -8.1
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#36 | P(fraud) 93% | amount 329.76 units at hour 05 | model indicators: V17=-3.4, V7=-5.1, V12=-8.1 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 37,
+  "risk_score": -1.78,
+  "fraud_probability": 0.2475,
+  "amount": 1237.71,
+  "expected_loss_avoided": 306.28,
+  "expected_net_benefit": 301.28,
+  "hour": 9,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -11.8
+   },
+   {
+    "feature": "V10",
+    "value": -4.7
+   },
+   {
+    "feature": "V12",
+    "value": -6.6
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#37 | P(fraud) 25% | amount 1,237.71 units at hour 09 | model indicators: V14=-11.8, V10=-4.7, V12=-6.6 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 38,
+  "risk_score": 3.454,
+  "fraud_probability": 0.8965,
+  "amount": 309.31,
+  "expected_loss_avoided": 277.3,
+  "expected_net_benefit": 272.3,
+  "hour": 9,
+  "indicators": [
+   {
+    "feature": "V11",
+    "value": 2.0
+   },
+   {
+    "feature": "V4",
+    "value": 5.8
+   },
+   {
+    "feature": "V12",
+    "value": -2.0
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#38 | P(fraud) 90% | amount 309.31 units at hour 09 | model indicators: V11=+2.0, V4=+5.8, V12=-2.0 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 39,
+  "risk_score": -1.503,
+  "fraud_probability": 0.281,
+  "amount": 981.98,
+  "expected_loss_avoided": 275.9,
+  "expected_net_benefit": 270.9,
+  "hour": 18,
+  "indicators": [
+   {
+    "feature": "LogAmount",
+    "value": 6.9
+   },
+   {
+    "feature": "V11",
+    "value": 4.1
+   },
+   {
+    "feature": "V14",
+    "value": -5.7
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#39 | P(fraud) 28% | amount 981.98 units at hour 18 | model indicators: LogAmount=+6.9, V11=+4.1, V14=-5.7 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 40,
+  "risk_score": 2.002,
+  "fraud_probability": 0.7775,
+  "amount": 345.92,
+  "expected_loss_avoided": 268.95,
+  "expected_net_benefit": 263.95,
+  "hour": 4,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 4.8
+   },
+   {
+    "feature": "V17",
+    "value": -2.9
+   },
+   {
+    "feature": "V12",
+    "value": -6.3
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#40 | P(fraud) 78% | amount 345.92 units at hour 04 | model indicators: V4=+4.8, V17=-2.9, V12=-6.3 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 41,
+  "risk_score": -2.453,
+  "fraud_probability": 0.1776,
+  "amount": 1473.03,
+  "expected_loss_avoided": 261.55,
+  "expected_net_benefit": 256.55,
+  "hour": 4,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -6.2
+   },
+   {
+    "feature": "V10",
+    "value": -5.7
+   },
+   {
+    "feature": "V11",
+    "value": 2.8
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#41 | P(fraud) 18% | amount 1,473.03 units at hour 04 | model indicators: V14=-6.2, V10=-5.7, V11=+2.8 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 42,
+  "risk_score": -3.948,
+  "fraud_probability": 0.0782,
+  "amount": 3315.26,
+  "expected_loss_avoided": 259.15,
+  "expected_net_benefit": 254.15,
+  "hour": 2,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -5.3
+   },
+   {
+    "feature": "V11",
+    "value": 3.1
+   },
+   {
+    "feature": "V10",
+    "value": -2.1
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#42 | P(fraud) 8% | amount 3,315.26 units at hour 02 | model indicators: V12=-5.3, V11=+3.1, V10=-2.1 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 43,
+  "risk_score": 2.132,
+  "fraud_probability": 0.7913,
+  "amount": 318.52,
+  "expected_loss_avoided": 252.03,
+  "expected_net_benefit": 247.03,
+  "hour": 1,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -4.8
+   },
+   {
+    "feature": "V3",
+    "value": -1.8
+   },
+   {
+    "feature": "V11",
+    "value": 2.5
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#43 | P(fraud) 79% | amount 318.52 units at hour 01 | model indicators: V14=-4.8, V3=-1.8, V11=+2.5 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 44,
+  "risk_score": 3.986,
+  "fraud_probability": 0.9235,
+  "amount": 268.08,
+  "expected_loss_avoided": 247.58,
+  "expected_net_benefit": 242.58,
+  "hour": 4,
+  "indicators": [
+   {
+    "feature": "V3",
+    "value": -8.6
+   },
+   {
+    "feature": "V4",
+    "value": 6.0
+   },
+   {
+    "feature": "V14",
+    "value": -5.0
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#44 | P(fraud) 92% | amount 268.08 units at hour 04 | model indicators: V3=-8.6, V4=+6.0, V14=-5.0 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 45,
+  "risk_score": 3.388,
+  "fraud_probability": 0.8926,
+  "amount": 276.26,
+  "expected_loss_avoided": 246.59,
+  "expected_net_benefit": 241.59,
+  "hour": 21,
+  "indicators": [
+   {
+    "feature": "V10",
+    "value": -3.8
+   },
+   {
+    "feature": "V4",
+    "value": 2.2
+   },
+   {
+    "feature": "V14",
+    "value": -5.0
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#45 | P(fraud) 89% | amount 276.26 units at hour 21 | model indicators: V10=-3.8, V4=+2.2, V14=-5.0 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 46,
+  "risk_score": -3.964,
+  "fraud_probability": 0.0774,
+  "amount": 3110.51,
+  "expected_loss_avoided": 240.87,
+  "expected_net_benefit": 235.87,
+  "hour": 6,
+  "indicators": [
+   {
+    "feature": "V11",
+    "value": 2.9
+   },
+   {
+    "feature": "V17",
+    "value": -10.5
+   },
+   {
+    "feature": "V7",
+    "value": -4.8
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#46 | P(fraud) 8% | amount 3,110.51 units at hour 06 | model indicators: V11=+2.9, V17=-10.5, V7=-4.8 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 47,
+  "risk_score": -2.061,
+  "fraud_probability": 0.2161,
+  "amount": 1082.69,
+  "expected_loss_avoided": 234.0,
+  "expected_net_benefit": 229.0,
+  "hour": 22,
+  "indicators": [
+   {
+    "feature": "V7",
+    "value": -0.1
+   },
+   {
+    "feature": "V12",
+    "value": -5.4
+   },
+   {
+    "feature": "V10",
+    "value": -4.8
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#47 | P(fraud) 22% | amount 1,082.69 units at hour 22 | model indicators: V7=-0.1, V12=-5.4, V10=-4.8 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 48,
+  "risk_score": -1.885,
+  "fraud_probability": 0.2354,
+  "amount": 987.6,
+  "expected_loss_avoided": 232.44,
+  "expected_net_benefit": 227.44,
+  "hour": 0,
+  "indicators": [
+   {
+    "feature": "V3",
+    "value": -4.5
+   },
+   {
+    "feature": "V11",
+    "value": 3.5
+   },
+   {
+    "feature": "V16",
+    "value": -0.1
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#48 | P(fraud) 24% | amount 987.60 units at hour 00 | model indicators: V3=-4.5, V11=+3.5, V16=-0.1 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 49,
+  "risk_score": -1.658,
+  "fraud_probability": 0.2619,
+  "amount": 875.63,
+  "expected_loss_avoided": 229.33,
+  "expected_net_benefit": 224.33,
+  "hour": 22,
+  "indicators": [
+   {
+    "feature": "V11",
+    "value": 1.9
+   },
+   {
+    "feature": "V14",
+    "value": -8.9
+   },
+   {
+    "feature": "V16",
+    "value": -2.3
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#49 | P(fraud) 26% | amount 875.63 units at hour 22 | model indicators: V11=+1.9, V14=-8.9, V16=-2.3 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 50,
+  "risk_score": 1.722,
+  "fraud_probability": 0.7457,
+  "amount": 307.34,
+  "expected_loss_avoided": 229.19,
+  "expected_net_benefit": 224.19,
+  "hour": 1,
+  "indicators": [
+   {
+    "feature": "V7",
+    "value": -7.5
+   },
+   {
+    "feature": "V4",
+    "value": 4.8
+   },
+   {
+    "feature": "V17",
+    "value": -1.9
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#50 | P(fraud) 75% | amount 307.34 units at hour 01 | model indicators: V7=-7.5, V4=+4.8, V17=-1.9 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 51,
+  "risk_score": -2.825,
+  "fraud_probability": 0.146,
+  "amount": 1560.08,
+  "expected_loss_avoided": 227.85,
+  "expected_net_benefit": 222.85,
+  "hour": 9,
+  "indicators": [
+   {
+    "feature": "V7",
+    "value": -3.9
+   },
+   {
+    "feature": "V14",
+    "value": -4.4
+   },
+   {
+    "feature": "V12",
+    "value": -7.2
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#51 | P(fraud) 15% | amount 1,560.08 units at hour 09 | model indicators: V7=-3.9, V14=-4.4, V12=-7.2 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 52,
+  "risk_score": 6.612,
+  "fraud_probability": 0.9842,
+  "amount": 231.29,
+  "expected_loss_avoided": 227.64,
+  "expected_net_benefit": 222.64,
+  "hour": 8,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -9.2
+   },
+   {
+    "feature": "V14",
+    "value": -7.8
+   },
+   {
+    "feature": "V3",
+    "value": -4.3
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#52 | P(fraud) 98% | amount 231.29 units at hour 08 | model indicators: V12=-9.2, V14=-7.8, V3=-4.3 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 53,
+  "risk_score": -0.155,
+  "fraud_probability": 0.4758,
+  "amount": 478.01,
+  "expected_loss_avoided": 227.43,
+  "expected_net_benefit": 222.43,
+  "hour": 5,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 7.2
+   },
+   {
+    "feature": "V3",
+    "value": -6.1
+   },
+   {
+    "feature": "V17",
+    "value": -3.6
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#53 | P(fraud) 48% | amount 478.01 units at hour 05 | model indicators: V4=+7.2, V3=-6.1, V17=-3.6 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 54,
+  "risk_score": 3.525,
+  "fraud_probability": 0.9005,
+  "amount": 251.71,
+  "expected_loss_avoided": 226.67,
+  "expected_net_benefit": 221.67,
+  "hour": 11,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -9.5
+   },
+   {
+    "feature": "V3",
+    "value": -4.2
+   },
+   {
+    "feature": "V10",
+    "value": -6.4
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#54 | P(fraud) 90% | amount 251.71 units at hour 11 | model indicators: V14=-9.5, V3=-4.2, V10=-6.4 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 55,
+  "risk_score": -2.08,
+  "fraud_probability": 0.2142,
+  "amount": 1044.28,
+  "expected_loss_avoided": 223.64,
+  "expected_net_benefit": 218.64,
+  "hour": 3,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 4.9
+   },
+   {
+    "feature": "V10",
+    "value": -4.4
+   },
+   {
+    "feature": "V3",
+    "value": -3.3
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#55 | P(fraud) 21% | amount 1,044.28 units at hour 03 | model indicators: V4=+4.9, V10=-4.4, V3=-3.3 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 56,
+  "risk_score": 3.361,
+  "fraud_probability": 0.891,
+  "amount": 248.27,
+  "expected_loss_avoided": 221.2,
+  "expected_net_benefit": 216.2,
+  "hour": 4,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -3.1
+   },
+   {
+    "feature": "V12",
+    "value": -5.9
+   },
+   {
+    "feature": "V4",
+    "value": 3.2
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#56 | P(fraud) 89% | amount 248.27 units at hour 04 | model indicators: V14=-3.1, V12=-5.9, V4=+3.2 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 57,
+  "risk_score": 1.791,
+  "fraud_probability": 0.7538,
+  "amount": 293.0,
+  "expected_loss_avoided": 220.88,
+  "expected_net_benefit": 215.88,
+  "hour": 3,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -2.6
+   },
+   {
+    "feature": "V3",
+    "value": -3.2
+   },
+   {
+    "feature": "V16",
+    "value": -2.0
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#57 | P(fraud) 75% | amount 293.00 units at hour 03 | model indicators: V14=-2.6, V3=-3.2, V16=-2.0 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 58,
+  "risk_score": 3.744,
+  "fraud_probability": 0.9121,
+  "amount": 240.87,
+  "expected_loss_avoided": 219.7,
+  "expected_net_benefit": 214.7,
+  "hour": 0,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 3.7
+   },
+   {
+    "feature": "V10",
+    "value": -3.8
+   },
+   {
+    "feature": "V14",
+    "value": -5.4
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#58 | P(fraud) 91% | amount 240.87 units at hour 00 | model indicators: V4=+3.7, V10=-3.8, V14=-5.4 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 59,
+  "risk_score": 5.029,
+  "fraud_probability": 0.9586,
+  "amount": 221.78,
+  "expected_loss_avoided": 212.61,
+  "expected_net_benefit": 207.61,
+  "hour": 3,
+  "indicators": [
+   {
+    "feature": "LogAmount",
+    "value": 5.4
+   },
+   {
+    "feature": "V17",
+    "value": -7.9
+   },
+   {
+    "feature": "V10",
+    "value": -2.2
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#59 | P(fraud) 96% | amount 221.78 units at hour 03 | model indicators: LogAmount=+5.4, V17=-7.9, V10=-2.2 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 60,
+  "risk_score": 1.605,
+  "fraud_probability": 0.7317,
+  "amount": 287.1,
+  "expected_loss_avoided": 210.07,
+  "expected_net_benefit": 205.07,
+  "hour": 2,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 3.2
+   },
+   {
+    "feature": "V10",
+    "value": -9.2
+   },
+   {
+    "feature": "V16",
+    "value": -7.4
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#60 | P(fraud) 73% | amount 287.10 units at hour 02 | model indicators: V4=+3.2, V10=-9.2, V16=-7.4 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 61,
+  "risk_score": 3.878,
+  "fraud_probability": 0.9186,
+  "amount": 221.11,
+  "expected_loss_avoided": 203.12,
+  "expected_net_benefit": 198.12,
+  "hour": 4,
+  "indicators": [
+   {
+    "feature": "V10",
+    "value": -4.9
+   },
+   {
+    "feature": "V3",
+    "value": -5.4
+   },
+   {
+    "feature": "V16",
+    "value": -5.9
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#61 | P(fraud) 92% | amount 221.11 units at hour 04 | model indicators: V10=-4.9, V3=-5.4, V16=-5.9 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 62,
+  "risk_score": -3.305,
+  "fraud_probability": 0.1125,
+  "amount": 1800.79,
+  "expected_loss_avoided": 202.55,
+  "expected_net_benefit": 197.55,
+  "hour": 8,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -7.4
+   },
+   {
+    "feature": "V4",
+    "value": 5.0
+   },
+   {
+    "feature": "V7",
+    "value": -2.2
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#62 | P(fraud) 11% | amount 1,800.79 units at hour 08 | model indicators: V14=-7.4, V4=+5.0, V7=-2.2 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 63,
+  "risk_score": -4.632,
+  "fraud_probability": 0.0524,
+  "amount": 3856.84,
+  "expected_loss_avoided": 202.09,
+  "expected_net_benefit": 197.09,
+  "hour": 4,
+  "indicators": [
+   {
+    "feature": "V11",
+    "value": 3.3
+   },
+   {
+    "feature": "V14",
+    "value": -7.1
+   },
+   {
+    "feature": "V16",
+    "value": -1.7
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#63 | P(fraud) 5% | amount 3,856.84 units at hour 04 | model indicators: V11=+3.3, V14=-7.1, V16=-1.7 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 64,
+  "risk_score": -4.539,
+  "fraud_probability": 0.0554,
+  "amount": 3648.84,
+  "expected_loss_avoided": 202.06,
+  "expected_net_benefit": 197.06,
+  "hour": 10,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -6.1
+   },
+   {
+    "feature": "V4",
+    "value": 3.4
+   },
+   {
+    "feature": "V16",
+    "value": -3.5
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#64 | P(fraud) 6% | amount 3,648.84 units at hour 10 | model indicators: V14=-6.1, V4=+3.4, V16=-3.5 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 65,
+  "risk_score": 3.303,
+  "fraud_probability": 0.8874,
+  "amount": 222.25,
+  "expected_loss_avoided": 197.22,
+  "expected_net_benefit": 192.22,
+  "hour": 2,
+  "indicators": [
+   {
+    "feature": "V3",
+    "value": -4.8
+   },
+   {
+    "feature": "V11",
+    "value": 3.0
+   },
+   {
+    "feature": "V14",
+    "value": -2.8
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#65 | P(fraud) 89% | amount 222.25 units at hour 02 | model indicators: V3=-4.8, V11=+3.0, V14=-2.8 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 66,
+  "risk_score": 2.401,
+  "fraud_probability": 0.8177,
+  "amount": 238.6,
+  "expected_loss_avoided": 195.1,
+  "expected_net_benefit": 190.1,
+  "hour": 2,
+  "indicators": [
+   {
+    "feature": "V7",
+    "value": -5.6
+   },
+   {
+    "feature": "V10",
+    "value": -5.6
+   },
+   {
+    "feature": "V12",
+    "value": -6.6
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#66 | P(fraud) 82% | amount 238.60 units at hour 02 | model indicators: V7=-5.6, V10=-5.6, V12=-6.6 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 67,
+  "risk_score": -3.837,
+  "fraud_probability": 0.0833,
+  "amount": 2327.28,
+  "expected_loss_avoided": 193.92,
+  "expected_net_benefit": 188.92,
+  "hour": 13,
+  "indicators": [
+   {
+    "feature": "V10",
+    "value": -6.6
+   },
+   {
+    "feature": "V14",
+    "value": -4.5
+   },
+   {
+    "feature": "V4",
+    "value": 5.0
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#67 | P(fraud) 8% | amount 2,327.28 units at hour 13 | model indicators: V10=-6.6, V14=-4.5, V4=+5.0 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 68,
+  "risk_score": -2.065,
+  "fraud_probability": 0.2157,
+  "amount": 880.66,
+  "expected_loss_avoided": 190.0,
+  "expected_net_benefit": 185.0,
+  "hour": 21,
+  "indicators": [
+   {
+    "feature": "V7",
+    "value": -0.2
+   },
+   {
+    "feature": "V10",
+    "value": -2.8
+   },
+   {
+    "feature": "V4",
+    "value": 4.5
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#68 | P(fraud) 22% | amount 880.66 units at hour 21 | model indicators: V7=-0.2, V10=-2.8, V4=+4.5 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 69,
+  "risk_score": -1.647,
+  "fraud_probability": 0.2632,
+  "amount": 715.41,
+  "expected_loss_avoided": 188.3,
+  "expected_net_benefit": 183.3,
+  "hour": 10,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -5.7
+   },
+   {
+    "feature": "V4",
+    "value": 4.7
+   },
+   {
+    "feature": "V17",
+    "value": -6.0
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#69 | P(fraud) 26% | amount 715.41 units at hour 10 | model indicators: V12=-5.7, V4=+4.7, V17=-6.0 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 70,
+  "risk_score": -1.597,
+  "fraud_probability": 0.2693,
+  "amount": 694.97,
+  "expected_loss_avoided": 187.17,
+  "expected_net_benefit": 182.17,
+  "hour": 2,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -3.3
+   },
+   {
+    "feature": "V16",
+    "value": -4.8
+   },
+   {
+    "feature": "V11",
+    "value": 3.7
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#70 | P(fraud) 27% | amount 694.97 units at hour 02 | model indicators: V12=-3.3, V16=-4.8, V11=+3.7 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 71,
+  "risk_score": -1.294,
+  "fraud_probability": 0.3081,
+  "amount": 598.16,
+  "expected_loss_avoided": 184.3,
+  "expected_net_benefit": 179.3,
+  "hour": 6,
+  "indicators": [
+   {
+    "feature": "V10",
+    "value": -3.8
+   },
+   {
+    "feature": "V4",
+    "value": 2.3
+   },
+   {
+    "feature": "V14",
+    "value": -6.5
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#71 | P(fraud) 31% | amount 598.16 units at hour 06 | model indicators: V10=-3.8, V4=+2.3, V14=-6.5 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 72,
+  "risk_score": 5.665,
+  "fraud_probability": 0.9718,
+  "amount": 189.53,
+  "expected_loss_avoided": 184.19,
+  "expected_net_benefit": 179.19,
+  "hour": 5,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 2.4
+   },
+   {
+    "feature": "V3",
+    "value": -5.6
+   },
+   {
+    "feature": "V17",
+    "value": -3.9
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#72 | P(fraud) 97% | amount 189.53 units at hour 05 | model indicators: V4=+2.4, V3=-5.6, V17=-3.9 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 73,
+  "risk_score": 4.11,
+  "fraud_probability": 0.9288,
+  "amount": 195.45,
+  "expected_loss_avoided": 181.54,
+  "expected_net_benefit": 176.54,
+  "hour": 4,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -12.5
+   },
+   {
+    "feature": "V17",
+    "value": -0.4
+   },
+   {
+    "feature": "V3",
+    "value": -6.2
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#73 | P(fraud) 93% | amount 195.45 units at hour 04 | model indicators: V14=-12.5, V17=-0.4, V3=-6.2 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 74,
+  "risk_score": -1.423,
+  "fraud_probability": 0.2913,
+  "amount": 615.74,
+  "expected_loss_avoided": 179.34,
+  "expected_net_benefit": 174.34,
+  "hour": 1,
+  "indicators": [
+   {
+    "feature": "V17",
+    "value": -8.0
+   },
+   {
+    "feature": "LogAmount",
+    "value": 6.4
+   },
+   {
+    "feature": "V3",
+    "value": -4.6
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#74 | P(fraud) 29% | amount 615.74 units at hour 01 | model indicators: V17=-8.0, LogAmount=+6.4, V3=-4.6 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 75,
+  "risk_score": -1.758,
+  "fraud_probability": 0.2499,
+  "amount": 716.49,
+  "expected_loss_avoided": 179.07,
+  "expected_net_benefit": 174.07,
+  "hour": 8,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -7.6
+   },
+   {
+    "feature": "V12",
+    "value": -4.2
+   },
+   {
+    "feature": "V4",
+    "value": 4.8
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#75 | P(fraud) 25% | amount 716.49 units at hour 08 | model indicators: V14=-7.6, V12=-4.2, V4=+4.8 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 76,
+  "risk_score": 1.544,
+  "fraud_probability": 0.7242,
+  "amount": 243.9,
+  "expected_loss_avoided": 176.62,
+  "expected_net_benefit": 171.62,
+  "hour": 4,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -4.7
+   },
+   {
+    "feature": "LogAmount",
+    "value": 5.5
+   },
+   {
+    "feature": "V12",
+    "value": -4.6
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#76 | P(fraud) 72% | amount 243.90 units at hour 04 | model indicators: V14=-4.7, LogAmount=+5.5, V12=-4.6 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 77,
+  "risk_score": 5.185,
+  "fraud_probability": 0.9623,
+  "amount": 183.19,
+  "expected_loss_avoided": 176.29,
+  "expected_net_benefit": 171.29,
+  "hour": 6,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -11.1
+   },
+   {
+    "feature": "V17",
+    "value": -5.3
+   },
+   {
+    "feature": "V11",
+    "value": 5.4
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#77 | P(fraud) 96% | amount 183.19 units at hour 06 | model indicators: V14=-11.1, V17=-5.3, V11=+5.4 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 78,
+  "risk_score": 3.208,
+  "fraud_probability": 0.8813,
+  "amount": 194.87,
+  "expected_loss_avoided": 171.74,
+  "expected_net_benefit": 166.74,
+  "hour": 15,
+  "indicators": [
+   {
+    "feature": "V11",
+    "value": 6.8
+   },
+   {
+    "feature": "V4",
+    "value": 3.4
+   },
+   {
+    "feature": "V16",
+    "value": -0.7
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#78 | P(fraud) 88% | amount 194.87 units at hour 15 | model indicators: V11=+6.8, V4=+3.4, V16=-0.7 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 79,
+  "risk_score": 4.236,
+  "fraud_probability": 0.9339,
+  "amount": 182.68,
+  "expected_loss_avoided": 170.6,
+  "expected_net_benefit": 165.6,
+  "hour": 4,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 6.7
+   },
+   {
+    "feature": "V14",
+    "value": -9.2
+   },
+   {
+    "feature": "V11",
+    "value": 3.5
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#79 | P(fraud) 93% | amount 182.68 units at hour 04 | model indicators: V4=+6.7, V14=-9.2, V11=+3.5 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 80,
+  "risk_score": 4.897,
+  "fraud_probability": 0.9552,
+  "amount": 178.12,
+  "expected_loss_avoided": 170.15,
+  "expected_net_benefit": 165.15,
+  "hour": 4,
+  "indicators": [
+   {
+    "feature": "V17",
+    "value": 2.3
+   },
+   {
+    "feature": "V14",
+    "value": -6.3
+   },
+   {
+    "feature": "V3",
+    "value": -7.7
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#80 | P(fraud) 96% | amount 178.12 units at hour 04 | model indicators: V17=+2.3, V14=-6.3, V3=-7.7 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 81,
+  "risk_score": -3.943,
+  "fraud_probability": 0.0784,
+  "amount": 2151.31,
+  "expected_loss_avoided": 168.62,
+  "expected_net_benefit": 163.62,
+  "hour": 22,
+  "indicators": [
+   {
+    "feature": "V3",
+    "value": -2.1
+   },
+   {
+    "feature": "V4",
+    "value": 4.0
+   },
+   {
+    "feature": "V14",
+    "value": -1.6
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#81 | P(fraud) 8% | amount 2,151.31 units at hour 22 | model indicators: V3=-2.1, V4=+4.0, V14=-1.6 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 82,
+  "risk_score": 1.494,
+  "fraud_probability": 0.7179,
+  "amount": 232.55,
+  "expected_loss_avoided": 166.94,
+  "expected_net_benefit": 161.94,
+  "hour": 2,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -5.0
+   },
+   {
+    "feature": "V16",
+    "value": -6.2
+   },
+   {
+    "feature": "V14",
+    "value": -7.6
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#82 | P(fraud) 72% | amount 232.55 units at hour 02 | model indicators: V12=-5.0, V16=-6.2, V14=-7.6 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 83,
+  "risk_score": -2.153,
+  "fraud_probability": 0.2066,
+  "amount": 802.26,
+  "expected_loss_avoided": 165.77,
+  "expected_net_benefit": 160.77,
+  "hour": 3,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 3.4
+   },
+   {
+    "feature": "V10",
+    "value": -5.0
+   },
+   {
+    "feature": "V14",
+    "value": -4.6
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#83 | P(fraud) 21% | amount 802.26 units at hour 03 | model indicators: V4=+3.4, V10=-5.0, V14=-4.6 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 84,
+  "risk_score": 4.98,
+  "fraud_probability": 0.9574,
+  "amount": 170.42,
+  "expected_loss_avoided": 163.16,
+  "expected_net_benefit": 158.16,
+  "hour": 5,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -4.9
+   },
+   {
+    "feature": "V11",
+    "value": 4.3
+   },
+   {
+    "feature": "V3",
+    "value": -5.5
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#84 | P(fraud) 96% | amount 170.42 units at hour 05 | model indicators: V14=-4.9, V11=+4.3, V3=-5.5 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 85,
+  "risk_score": 5.513,
+  "fraud_probability": 0.9691,
+  "amount": 167.82,
+  "expected_loss_avoided": 162.63,
+  "expected_net_benefit": 157.63,
+  "hour": 0,
+  "indicators": [
+   {
+    "feature": "V17",
+    "value": -7.2
+   },
+   {
+    "feature": "V10",
+    "value": -3.7
+   },
+   {
+    "feature": "V14",
+    "value": -7.2
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#85 | P(fraud) 97% | amount 167.82 units at hour 00 | model indicators: V17=-7.2, V10=-3.7, V14=-7.2 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 86,
+  "risk_score": 2.283,
+  "fraud_probability": 0.8064,
+  "amount": 201.61,
+  "expected_loss_avoided": 162.59,
+  "expected_net_benefit": 157.59,
+  "hour": 4,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -9.4
+   },
+   {
+    "feature": "V4",
+    "value": 3.1
+   },
+   {
+    "feature": "V17",
+    "value": -5.7
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#86 | P(fraud) 81% | amount 201.61 units at hour 04 | model indicators: V14=-9.4, V4=+3.1, V17=-5.7 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 87,
+  "risk_score": 3.158,
+  "fraud_probability": 0.878,
+  "amount": 182.42,
+  "expected_loss_avoided": 160.17,
+  "expected_net_benefit": 155.17,
+  "hour": 10,
+  "indicators": [
+   {
+    "feature": "V10",
+    "value": -2.8
+   },
+   {
+    "feature": "V14",
+    "value": -7.1
+   },
+   {
+    "feature": "V12",
+    "value": -1.1
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#87 | P(fraud) 88% | amount 182.42 units at hour 10 | model indicators: V10=-2.8, V14=-7.1, V12=-1.1 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 88,
+  "risk_score": -1.931,
+  "fraud_probability": 0.2303,
+  "amount": 687.92,
+  "expected_loss_avoided": 158.43,
+  "expected_net_benefit": 153.43,
+  "hour": 7,
+  "indicators": [
+   {
+    "feature": "V10",
+    "value": -7.3
+   },
+   {
+    "feature": "V12",
+    "value": -8.6
+   },
+   {
+    "feature": "LogAmount",
+    "value": 6.5
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#88 | P(fraud) 23% | amount 687.92 units at hour 07 | model indicators: V10=-7.3, V12=-8.6, LogAmount=+6.5 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 89,
+  "risk_score": -2.342,
+  "fraud_probability": 0.1879,
+  "amount": 819.48,
+  "expected_loss_avoided": 154.01,
+  "expected_net_benefit": 149.01,
+  "hour": 4,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -5.1
+   },
+   {
+    "feature": "V3",
+    "value": -8.8
+   },
+   {
+    "feature": "V14",
+    "value": -7.8
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#89 | P(fraud) 19% | amount 819.48 units at hour 04 | model indicators: V12=-5.1, V3=-8.8, V14=-7.8 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 90,
+  "risk_score": -3.435,
+  "fraud_probability": 0.1046,
+  "amount": 1432.42,
+  "expected_loss_avoided": 149.86,
+  "expected_net_benefit": 144.86,
+  "hour": 14,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -6.7
+   },
+   {
+    "feature": "V11",
+    "value": 5.9
+   },
+   {
+    "feature": "V14",
+    "value": -11.3
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#90 | P(fraud) 10% | amount 1,432.42 units at hour 14 | model indicators: V12=-6.7, V11=+5.9, V14=-11.3 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 91,
+  "risk_score": 4.631,
+  "fraud_probability": 0.9476,
+  "amount": 158.04,
+  "expected_loss_avoided": 149.75,
+  "expected_net_benefit": 144.75,
+  "hour": 6,
+  "indicators": [
+   {
+    "feature": "V17",
+    "value": -8.9
+   },
+   {
+    "feature": "V14",
+    "value": -7.2
+   },
+   {
+    "feature": "V4",
+    "value": 3.7
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#91 | P(fraud) 95% | amount 158.04 units at hour 06 | model indicators: V17=-8.9, V14=-7.2, V4=+3.7 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 92,
+  "risk_score": -2.089,
+  "fraud_probability": 0.2132,
+  "amount": 700.32,
+  "expected_loss_avoided": 149.29,
+  "expected_net_benefit": 144.29,
+  "hour": 17,
+  "indicators": [
+   {
+    "feature": "V11",
+    "value": 2.1
+   },
+   {
+    "feature": "V7",
+    "value": -6.3
+   },
+   {
+    "feature": "V17",
+    "value": -5.5
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#92 | P(fraud) 21% | amount 700.32 units at hour 17 | model indicators: V11=+2.1, V7=-6.3, V17=-5.5 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 93,
+  "risk_score": -2.225,
+  "fraud_probability": 0.1993,
+  "amount": 746.15,
+  "expected_loss_avoided": 148.73,
+  "expected_net_benefit": 143.73,
+  "hour": 14,
+  "indicators": [
+   {
+    "feature": "V16",
+    "value": -6.6
+   },
+   {
+    "feature": "V3",
+    "value": -7.1
+   },
+   {
+    "feature": "V7",
+    "value": -4.2
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#93 | P(fraud) 20% | amount 746.15 units at hour 14 | model indicators: V16=-6.6, V3=-7.1, V7=-4.2 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 94,
+  "risk_score": 2.05,
+  "fraud_probability": 0.7827,
+  "amount": 189.72,
+  "expected_loss_avoided": 148.49,
+  "expected_net_benefit": 143.49,
+  "hour": 18,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -7.1
+   },
+   {
+    "feature": "V17",
+    "value": -6.3
+   },
+   {
+    "feature": "V10",
+    "value": -3.2
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#94 | P(fraud) 78% | amount 189.72 units at hour 18 | model indicators: V14=-7.1, V17=-6.3, V10=-3.2 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 95,
+  "risk_score": 3.108,
+  "fraud_probability": 0.8746,
+  "amount": 169.59,
+  "expected_loss_avoided": 148.33,
+  "expected_net_benefit": 143.33,
+  "hour": 2,
+  "indicators": [
+   {
+    "feature": "V16",
+    "value": -2.4
+   },
+   {
+    "feature": "V12",
+    "value": -5.4
+   },
+   {
+    "feature": "V14",
+    "value": -5.2
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#95 | P(fraud) 87% | amount 169.59 units at hour 02 | model indicators: V16=-2.4, V12=-5.4, V14=-5.2 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 96,
+  "risk_score": -3.008,
+  "fraud_probability": 0.1324,
+  "amount": 1101.05,
+  "expected_loss_avoided": 145.78,
+  "expected_net_benefit": 140.78,
+  "hour": 22,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -6.0
+   },
+   {
+    "feature": "V16",
+    "value": -6.8
+   },
+   {
+    "feature": "V17",
+    "value": -2.5
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#96 | P(fraud) 13% | amount 1,101.05 units at hour 22 | model indicators: V12=-6.0, V16=-6.8, V17=-2.5 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 97,
+  "risk_score": 3.562,
+  "fraud_probability": 0.9026,
+  "amount": 158.62,
+  "expected_loss_avoided": 143.17,
+  "expected_net_benefit": 138.17,
+  "hour": 3,
+  "indicators": [
+   {
+    "feature": "V10",
+    "value": -2.6
+   },
+   {
+    "feature": "LogAmount",
+    "value": 5.1
+   },
+   {
+    "feature": "V17",
+    "value": -3.2
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#97 | P(fraud) 90% | amount 158.62 units at hour 03 | model indicators: V10=-2.6, LogAmount=+5.1, V17=-3.2 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 98,
+  "risk_score": -4.691,
+  "fraud_probability": 0.0506,
+  "amount": 2765.81,
+  "expected_loss_avoided": 139.91,
+  "expected_net_benefit": 134.91,
+  "hour": 20,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 4.1
+   },
+   {
+    "feature": "V14",
+    "value": -7.2
+   },
+   {
+    "feature": "V3",
+    "value": -5.8
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#98 | P(fraud) 5% | amount 2,765.81 units at hour 20 | model indicators: V4=+4.1, V14=-7.2, V3=-5.8 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 99,
+  "risk_score": 4.5,
+  "fraud_probability": 0.9433,
+  "amount": 146.87,
+  "expected_loss_avoided": 138.55,
+  "expected_net_benefit": 133.55,
+  "hour": 0,
+  "indicators": [
+   {
+    "feature": "V11",
+    "value": 2.9
+   },
+   {
+    "feature": "V4",
+    "value": 4.5
+   },
+   {
+    "feature": "V17",
+    "value": -12.0
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#99 | P(fraud) 94% | amount 146.87 units at hour 00 | model indicators: V11=+2.9, V4=+4.5, V17=-12.0 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 100,
+  "risk_score": 1.748,
+  "fraud_probability": 0.7489,
+  "amount": 179.82,
+  "expected_loss_avoided": 134.67,
+  "expected_net_benefit": 129.67,
+  "hour": 1,
+  "indicators": [
+   {
+    "feature": "V3",
+    "value": -2.7
+   },
+   {
+    "feature": "V16",
+    "value": -6.4
+   },
+   {
+    "feature": "V14",
+    "value": -3.7
+   }
+  ],
+  "action": "PRIORITY REVIEW (same day)",
+  "note": "#100 | P(fraud) 75% | amount 179.82 units at hour 01 | model indicators: V3=-2.7, V16=-6.4, V14=-3.7 | action: PRIORITY REVIEW (same day)",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 101,
+  "risk_score": -0.693,
+  "fraud_probability": 0.3934,
+  "amount": 340.96,
+  "expected_loss_avoided": 134.14,
+  "expected_net_benefit": 129.14,
+  "hour": 1,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -9.7
+   },
+   {
+    "feature": "V10",
+    "value": -7.7
+   },
+   {
+    "feature": "V4",
+    "value": 5.6
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#101 | P(fraud) 39% | amount 340.96 units at hour 01 | model indicators: V12=-9.7, V10=-7.7, V4=+5.6 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 102,
+  "risk_score": 1.321,
+  "fraud_probability": 0.6955,
+  "amount": 192.66,
+  "expected_loss_avoided": 133.99,
+  "expected_net_benefit": 128.99,
+  "hour": 20,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -8.7
+   },
+   {
+    "feature": "V11",
+    "value": 5.0
+   },
+   {
+    "feature": "V7",
+    "value": -5.0
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#102 | P(fraud) 70% | amount 192.66 units at hour 20 | model indicators: V14=-8.7, V11=+5.0, V7=-5.0 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 103,
+  "risk_score": 3.128,
+  "fraud_probability": 0.876,
+  "amount": 152.62,
+  "expected_loss_avoided": 133.7,
+  "expected_net_benefit": 128.7,
+  "hour": 3,
+  "indicators": [
+   {
+    "feature": "V17",
+    "value": -2.5
+   },
+   {
+    "feature": "V10",
+    "value": -6.1
+   },
+   {
+    "feature": "V14",
+    "value": -7.7
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#103 | P(fraud) 88% | amount 152.62 units at hour 03 | model indicators: V17=-2.5, V10=-6.1, V14=-7.7 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 104,
+  "risk_score": -3.808,
+  "fraud_probability": 0.0847,
+  "amount": 1574.12,
+  "expected_loss_avoided": 133.32,
+  "expected_net_benefit": 128.32,
+  "hour": 23,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 4.0
+   },
+   {
+    "feature": "V17",
+    "value": -7.7
+   },
+   {
+    "feature": "V12",
+    "value": -6.2
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#104 | P(fraud) 8% | amount 1,574.12 units at hour 23 | model indicators: V4=+4.0, V17=-7.7, V12=-6.2 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 105,
+  "risk_score": 5.053,
+  "fraud_probability": 0.9592,
+  "amount": 137.38,
+  "expected_loss_avoided": 131.78,
+  "expected_net_benefit": 126.78,
+  "hour": 19,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -6.2
+   },
+   {
+    "feature": "V16",
+    "value": -1.6
+   },
+   {
+    "feature": "V4",
+    "value": 5.1
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#105 | P(fraud) 96% | amount 137.38 units at hour 19 | model indicators: V12=-6.2, V16=-1.6, V4=+5.1 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 106,
+  "risk_score": -3.765,
+  "fraud_probability": 0.0868,
+  "amount": 1499.83,
+  "expected_loss_avoided": 130.23,
+  "expected_net_benefit": 125.23,
+  "hour": 10,
+  "indicators": [
+   {
+    "feature": "LogAmount",
+    "value": 7.3
+   },
+   {
+    "feature": "V12",
+    "value": -5.3
+   },
+   {
+    "feature": "V3",
+    "value": -4.5
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#106 | P(fraud) 9% | amount 1,499.83 units at hour 10 | model indicators: LogAmount=+7.3, V12=-5.3, V3=-4.5 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 107,
+  "risk_score": -2.694,
+  "fraud_probability": 0.1566,
+  "amount": 828.3,
+  "expected_loss_avoided": 129.68,
+  "expected_net_benefit": 124.68,
+  "hour": 14,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 4.2
+   },
+   {
+    "feature": "V14",
+    "value": -12.1
+   },
+   {
+    "feature": "V11",
+    "value": 1.6
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#107 | P(fraud) 16% | amount 828.30 units at hour 14 | model indicators: V4=+4.2, V14=-12.1, V11=+1.6 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 108,
+  "risk_score": -1.668,
+  "fraud_probability": 0.2606,
+  "amount": 492.42,
+  "expected_loss_avoided": 128.33,
+  "expected_net_benefit": 123.33,
+  "hour": 12,
+  "indicators": [
+   {
+    "feature": "V10",
+    "value": -6.9
+   },
+   {
+    "feature": "V12",
+    "value": -4.6
+   },
+   {
+    "feature": "V17",
+    "value": -4.2
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#108 | P(fraud) 26% | amount 492.42 units at hour 12 | model indicators: V10=-6.9, V12=-4.6, V17=-4.2 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 109,
+  "risk_score": -1.648,
+  "fraud_probability": 0.2631,
+  "amount": 485.15,
+  "expected_loss_avoided": 127.62,
+  "expected_net_benefit": 122.62,
+  "hour": 18,
+  "indicators": [
+   {
+    "feature": "V10",
+    "value": -4.0
+   },
+   {
+    "feature": "V12",
+    "value": -4.2
+   },
+   {
+    "feature": "V11",
+    "value": -0.4
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#109 | P(fraud) 26% | amount 485.15 units at hour 18 | model indicators: V10=-4.0, V12=-4.2, V11=-0.4 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 110,
+  "risk_score": -0.335,
+  "fraud_probability": 0.4479,
+  "amount": 281.82,
+  "expected_loss_avoided": 126.22,
+  "expected_net_benefit": 121.22,
+  "hour": 2,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -8.3
+   },
+   {
+    "feature": "V10",
+    "value": -4.5
+   },
+   {
+    "feature": "V3",
+    "value": -2.9
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#110 | P(fraud) 45% | amount 281.82 units at hour 02 | model indicators: V12=-8.3, V10=-4.5, V3=-2.9 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 111,
+  "risk_score": 2.982,
+  "fraud_probability": 0.8657,
+  "amount": 144.15,
+  "expected_loss_avoided": 124.79,
+  "expected_net_benefit": 119.79,
+  "hour": 1,
+  "indicators": [
+   {
+    "feature": "V7",
+    "value": -4.3
+   },
+   {
+    "feature": "V10",
+    "value": -5.0
+   },
+   {
+    "feature": "V4",
+    "value": 6.4
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#111 | P(fraud) 87% | amount 144.15 units at hour 01 | model indicators: V7=-4.3, V10=-5.0, V4=+6.4 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 112,
+  "risk_score": -4.25,
+  "fraud_probability": 0.0656,
+  "amount": 1901.44,
+  "expected_loss_avoided": 124.75,
+  "expected_net_benefit": 119.75,
+  "hour": 2,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -9.0
+   },
+   {
+    "feature": "V17",
+    "value": -11.6
+   },
+   {
+    "feature": "V3",
+    "value": -6.2
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#112 | P(fraud) 7% | amount 1,901.44 units at hour 02 | model indicators: V14=-9.0, V17=-11.6, V3=-6.2 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 113,
+  "risk_score": -1.938,
+  "fraud_probability": 0.2295,
+  "amount": 542.52,
+  "expected_loss_avoided": 124.49,
+  "expected_net_benefit": 119.49,
+  "hour": 0,
+  "indicators": [
+   {
+    "feature": "V17",
+    "value": -4.7
+   },
+   {
+    "feature": "V16",
+    "value": -7.6
+   },
+   {
+    "feature": "V14",
+    "value": -8.1
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#113 | P(fraud) 23% | amount 542.52 units at hour 00 | model indicators: V17=-4.7, V16=-7.6, V14=-8.1 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 114,
+  "risk_score": -2.029,
+  "fraud_probability": 0.2196,
+  "amount": 556.05,
+  "expected_loss_avoided": 122.12,
+  "expected_net_benefit": 117.12,
+  "hour": 4,
+  "indicators": [
+   {
+    "feature": "V7",
+    "value": -4.4
+   },
+   {
+    "feature": "V12",
+    "value": -5.7
+   },
+   {
+    "feature": "V17",
+    "value": -7.1
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#114 | P(fraud) 22% | amount 556.05 units at hour 04 | model indicators: V7=-4.4, V12=-5.7, V17=-7.1 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 115,
+  "risk_score": -0.79,
+  "fraud_probability": 0.3791,
+  "amount": 319.49,
+  "expected_loss_avoided": 121.11,
+  "expected_net_benefit": 116.11,
+  "hour": 4,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 3.5
+   },
+   {
+    "feature": "V10",
+    "value": -3.8
+   },
+   {
+    "feature": "LogAmount",
+    "value": 5.8
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#115 | P(fraud) 38% | amount 319.49 units at hour 04 | model indicators: V4=+3.5, V10=-3.8, LogAmount=+5.8 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 116,
+  "risk_score": 4.382,
+  "fraud_probability": 0.9393,
+  "amount": 128.38,
+  "expected_loss_avoided": 120.58,
+  "expected_net_benefit": 115.58,
+  "hour": 1,
+  "indicators": [
+   {
+    "feature": "V11",
+    "value": 4.4
+   },
+   {
+    "feature": "V12",
+    "value": -8.2
+   },
+   {
+    "feature": "V14",
+    "value": -6.5
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#116 | P(fraud) 94% | amount 128.38 units at hour 01 | model indicators: V11=+4.4, V12=-8.2, V14=-6.5 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 117,
+  "risk_score": -2.319,
+  "fraud_probability": 0.1901,
+  "amount": 618.57,
+  "expected_loss_avoided": 117.59,
+  "expected_net_benefit": 112.59,
+  "hour": 18,
+  "indicators": [
+   {
+    "feature": "V3",
+    "value": -5.0
+   },
+   {
+    "feature": "V10",
+    "value": -8.7
+   },
+   {
+    "feature": "V14",
+    "value": -6.3
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#117 | P(fraud) 19% | amount 618.57 units at hour 18 | model indicators: V3=-5.0, V10=-8.7, V14=-6.3 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 118,
+  "risk_score": -2.421,
+  "fraud_probability": 0.1805,
+  "amount": 643.33,
+  "expected_loss_avoided": 116.13,
+  "expected_net_benefit": 111.13,
+  "hour": 19,
+  "indicators": [
+   {
+    "feature": "V11",
+    "value": 6.5
+   },
+   {
+    "feature": "V17",
+    "value": -0.5
+   },
+   {
+    "feature": "V14",
+    "value": -6.9
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#118 | P(fraud) 18% | amount 643.33 units at hour 19 | model indicators: V11=+6.5, V17=-0.5, V14=-6.9 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 119,
+  "risk_score": -3.917,
+  "fraud_probability": 0.0796,
+  "amount": 1390.4,
+  "expected_loss_avoided": 110.63,
+  "expected_net_benefit": 105.63,
+  "hour": 18,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -8.8
+   },
+   {
+    "feature": "V7",
+    "value": -6.4
+   },
+   {
+    "feature": "V4",
+    "value": 3.1
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#119 | P(fraud) 8% | amount 1,390.40 units at hour 18 | model indicators: V14=-8.8, V7=-6.4, V4=+3.1 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 120,
+  "risk_score": -1.443,
+  "fraud_probability": 0.2887,
+  "amount": 382.61,
+  "expected_loss_avoided": 110.46,
+  "expected_net_benefit": 105.46,
+  "hour": 6,
+  "indicators": [
+   {
+    "feature": "V16",
+    "value": -2.4
+   },
+   {
+    "feature": "V10",
+    "value": -7.0
+   },
+   {
+    "feature": "V14",
+    "value": -3.9
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#120 | P(fraud) 29% | amount 382.61 units at hour 06 | model indicators: V16=-2.4, V10=-7.0, V14=-3.9 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 121,
+  "risk_score": -1.768,
+  "fraud_probability": 0.2488,
+  "amount": 442.34,
+  "expected_loss_avoided": 110.06,
+  "expected_net_benefit": 105.06,
+  "hour": 1,
+  "indicators": [
+   {
+    "feature": "V17",
+    "value": -10.7
+   },
+   {
+    "feature": "V11",
+    "value": 2.9
+   },
+   {
+    "feature": "V14",
+    "value": -7.0
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#121 | P(fraud) 25% | amount 442.34 units at hour 01 | model indicators: V17=-10.7, V11=+2.9, V14=-7.0 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 122,
+  "risk_score": 3.342,
+  "fraud_probability": 0.8898,
+  "amount": 123.01,
+  "expected_loss_avoided": 109.45,
+  "expected_net_benefit": 104.45,
+  "hour": 1,
+  "indicators": [
+   {
+    "feature": "V3",
+    "value": -3.2
+   },
+   {
+    "feature": "V12",
+    "value": -3.5
+   },
+   {
+    "feature": "V14",
+    "value": -4.9
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#122 | P(fraud) 89% | amount 123.01 units at hour 01 | model indicators: V3=-3.2, V12=-3.5, V14=-4.9 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 123,
+  "risk_score": -1.972,
+  "fraud_probability": 0.2258,
+  "amount": 480.88,
+  "expected_loss_avoided": 108.57,
+  "expected_net_benefit": 103.57,
+  "hour": 22,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -6.2
+   },
+   {
+    "feature": "V3",
+    "value": -7.4
+   },
+   {
+    "feature": "V4",
+    "value": 4.2
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#123 | P(fraud) 23% | amount 480.88 units at hour 22 | model indicators: V14=-6.2, V3=-7.4, V4=+4.2 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 124,
+  "risk_score": -4.701,
+  "fraud_probability": 0.0503,
+  "amount": 2139.13,
+  "expected_loss_avoided": 107.59,
+  "expected_net_benefit": 102.59,
+  "hour": 10,
+  "indicators": [
+   {
+    "feature": "V3",
+    "value": -2.8
+   },
+   {
+    "feature": "V10",
+    "value": -3.9
+   },
+   {
+    "feature": "V4",
+    "value": 5.6
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#124 | P(fraud) 5% | amount 2,139.13 units at hour 10 | model indicators: V3=-2.8, V10=-3.9, V4=+5.6 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 125,
+  "risk_score": 4.021,
+  "fraud_probability": 0.925,
+  "amount": 115.45,
+  "expected_loss_avoided": 106.8,
+  "expected_net_benefit": 101.8,
+  "hour": 2,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -6.6
+   },
+   {
+    "feature": "V11",
+    "value": 4.2
+   },
+   {
+    "feature": "V4",
+    "value": 1.9
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#125 | P(fraud) 93% | amount 115.45 units at hour 02 | model indicators: V14=-6.6, V11=+4.2, V4=+1.9 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 126,
+  "risk_score": 1.812,
+  "fraud_probability": 0.7564,
+  "amount": 139.31,
+  "expected_loss_avoided": 105.37,
+  "expected_net_benefit": 100.37,
+  "hour": 4,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -2.5
+   },
+   {
+    "feature": "V4",
+    "value": 3.7
+   },
+   {
+    "feature": "V3",
+    "value": -7.0
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#126 | P(fraud) 76% | amount 139.31 units at hour 04 | model indicators: V12=-2.5, V4=+3.7, V3=-7.0 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 127,
+  "risk_score": -2.613,
+  "fraud_probability": 0.1634,
+  "amount": 639.09,
+  "expected_loss_avoided": 104.42,
+  "expected_net_benefit": 99.42,
+  "hour": 20,
+  "indicators": [
+   {
+    "feature": "V3",
+    "value": -0.4
+   },
+   {
+    "feature": "V4",
+    "value": 3.8
+   },
+   {
+    "feature": "V14",
+    "value": -9.1
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#127 | P(fraud) 16% | amount 639.09 units at hour 20 | model indicators: V3=-0.4, V4=+3.8, V14=-9.1 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 128,
+  "risk_score": 1.934,
+  "fraud_probability": 0.77,
+  "amount": 134.35,
+  "expected_loss_avoided": 103.45,
+  "expected_net_benefit": 98.45,
+  "hour": 2,
+  "indicators": [
+   {
+    "feature": "V10",
+    "value": -6.5
+   },
+   {
+    "feature": "V12",
+    "value": -4.0
+   },
+   {
+    "feature": "V14",
+    "value": -7.6
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#128 | P(fraud) 77% | amount 134.35 units at hour 02 | model indicators: V10=-6.5, V12=-4.0, V14=-7.6 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 129,
+  "risk_score": -4.41,
+  "fraud_probability": 0.0598,
+  "amount": 1727.45,
+  "expected_loss_avoided": 103.22,
+  "expected_net_benefit": 98.22,
+  "hour": 11,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 2.6
+   },
+   {
+    "feature": "V12",
+    "value": -9.1
+   },
+   {
+    "feature": "V14",
+    "value": -9.6
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#129 | P(fraud) 6% | amount 1,727.45 units at hour 11 | model indicators: V4=+2.6, V12=-9.1, V14=-9.6 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 130,
+  "risk_score": -5.238,
+  "fraud_probability": 0.0365,
+  "amount": 2787.14,
+  "expected_loss_avoided": 101.67,
+  "expected_net_benefit": 96.67,
+  "hour": 13,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -7.7
+   },
+   {
+    "feature": "V4",
+    "value": 4.6
+   },
+   {
+    "feature": "V12",
+    "value": -8.3
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#130 | P(fraud) 4% | amount 2,787.14 units at hour 13 | model indicators: V14=-7.7, V4=+4.6, V12=-8.3 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 131,
+  "risk_score": 3.334,
+  "fraud_probability": 0.8893,
+  "amount": 114.18,
+  "expected_loss_avoided": 101.54,
+  "expected_net_benefit": 96.54,
+  "hour": 0,
+  "indicators": [
+   {
+    "feature": "V16",
+    "value": -7.7
+   },
+   {
+    "feature": "LogAmount",
+    "value": 4.7
+   },
+   {
+    "feature": "V3",
+    "value": -5.7
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#131 | P(fraud) 89% | amount 114.18 units at hour 00 | model indicators: V16=-7.7, LogAmount=+4.7, V3=-5.7 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 132,
+  "risk_score": -3.768,
+  "fraud_probability": 0.0867,
+  "amount": 1168.56,
+  "expected_loss_avoided": 101.27,
+  "expected_net_benefit": 96.27,
+  "hour": 1,
+  "indicators": [
+   {
+    "feature": "V11",
+    "value": 3.2
+   },
+   {
+    "feature": "V16",
+    "value": -2.4
+   },
+   {
+    "feature": "LogAmount",
+    "value": 7.1
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#132 | P(fraud) 9% | amount 1,168.56 units at hour 01 | model indicators: V11=+3.2, V16=-2.4, LogAmount=+7.1 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 133,
+  "risk_score": 3.674,
+  "fraud_probability": 0.9086,
+  "amount": 110.9,
+  "expected_loss_avoided": 100.76,
+  "expected_net_benefit": 95.76,
+  "hour": 1,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -3.9
+   },
+   {
+    "feature": "V11",
+    "value": 2.1
+   },
+   {
+    "feature": "V14",
+    "value": -1.3
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#133 | P(fraud) 91% | amount 110.90 units at hour 01 | model indicators: V12=-3.9, V11=+2.1, V14=-1.3 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 134,
+  "risk_score": 4.67,
+  "fraud_probability": 0.9488,
+  "amount": 106.11,
+  "expected_loss_avoided": 100.67,
+  "expected_net_benefit": 95.67,
+  "hour": 3,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 5.9
+   },
+   {
+    "feature": "V17",
+    "value": -7.2
+   },
+   {
+    "feature": "V7",
+    "value": -4.1
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#134 | P(fraud) 95% | amount 106.11 units at hour 03 | model indicators: V4=+5.9, V17=-7.2, V7=-4.1 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 135,
+  "risk_score": 1.314,
+  "fraud_probability": 0.6945,
+  "amount": 144.92,
+  "expected_loss_avoided": 100.65,
+  "expected_net_benefit": 95.65,
+  "hour": 5,
+  "indicators": [
+   {
+    "feature": "V3",
+    "value": -5.5
+   },
+   {
+    "feature": "V12",
+    "value": -8.1
+   },
+   {
+    "feature": "V10",
+    "value": -2.1
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#135 | P(fraud) 69% | amount 144.92 units at hour 05 | model indicators: V3=-5.5, V12=-8.1, V10=-2.1 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 136,
+  "risk_score": -2.409,
+  "fraud_probability": 0.1816,
+  "amount": 551.94,
+  "expected_loss_avoided": 100.22,
+  "expected_net_benefit": 95.22,
+  "hour": 1,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -7.8
+   },
+   {
+    "feature": "V10",
+    "value": -4.1
+   },
+   {
+    "feature": "V14",
+    "value": -8.5
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#136 | P(fraud) 18% | amount 551.94 units at hour 01 | model indicators: V12=-7.8, V10=-4.1, V14=-8.5 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 137,
+  "risk_score": 4.486,
+  "fraud_probability": 0.9429,
+  "amount": 106.16,
+  "expected_loss_avoided": 100.1,
+  "expected_net_benefit": 95.1,
+  "hour": 5,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -11.7
+   },
+   {
+    "feature": "V4",
+    "value": 4.4
+   },
+   {
+    "feature": "V3",
+    "value": -4.9
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#137 | P(fraud) 94% | amount 106.16 units at hour 05 | model indicators: V12=-11.7, V4=+4.4, V3=-4.9 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 138,
+  "risk_score": -2.966,
+  "fraud_probability": 0.1354,
+  "amount": 733.6,
+  "expected_loss_avoided": 99.35,
+  "expected_net_benefit": 94.35,
+  "hour": 8,
+  "indicators": [
+   {
+    "feature": "V3",
+    "value": -6.7
+   },
+   {
+    "feature": "V12",
+    "value": -6.2
+   },
+   {
+    "feature": "V4",
+    "value": 3.2
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#138 | P(fraud) 14% | amount 733.60 units at hour 08 | model indicators: V3=-6.7, V12=-6.2, V4=+3.2 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 139,
+  "risk_score": -1.376,
+  "fraud_probability": 0.2973,
+  "amount": 331.79,
+  "expected_loss_avoided": 98.65,
+  "expected_net_benefit": 93.65,
+  "hour": 6,
+  "indicators": [
+   {
+    "feature": "V7",
+    "value": -3.4
+   },
+   {
+    "feature": "V4",
+    "value": 6.2
+   },
+   {
+    "feature": "V12",
+    "value": -3.4
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#139 | P(fraud) 30% | amount 331.79 units at hour 06 | model indicators: V7=-3.4, V4=+6.2, V12=-3.4 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 140,
+  "risk_score": -3.336,
+  "fraud_probability": 0.1106,
+  "amount": 890.56,
+  "expected_loss_avoided": 98.47,
+  "expected_net_benefit": 93.47,
+  "hour": 20,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 4.1
+   },
+   {
+    "feature": "V10",
+    "value": -7.5
+   },
+   {
+    "feature": "V16",
+    "value": -7.4
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#140 | P(fraud) 11% | amount 890.56 units at hour 20 | model indicators: V4=+4.1, V10=-7.5, V16=-7.4 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 141,
+  "risk_score": -3.905,
+  "fraud_probability": 0.0801,
+  "amount": 1217.46,
+  "expected_loss_avoided": 97.53,
+  "expected_net_benefit": 92.53,
+  "hour": 14,
+  "indicators": [
+   {
+    "feature": "V17",
+    "value": -8.1
+   },
+   {
+    "feature": "V4",
+    "value": 3.7
+   },
+   {
+    "feature": "V3",
+    "value": -3.9
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#141 | P(fraud) 8% | amount 1,217.46 units at hour 14 | model indicators: V17=-8.1, V4=+3.7, V3=-3.9 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 142,
+  "risk_score": -2.892,
+  "fraud_probability": 0.1409,
+  "amount": 683.6,
+  "expected_loss_avoided": 96.33,
+  "expected_net_benefit": 91.33,
+  "hour": 5,
+  "indicators": [
+   {
+    "feature": "V11",
+    "value": 3.1
+   },
+   {
+    "feature": "V10",
+    "value": -4.9
+   },
+   {
+    "feature": "V14",
+    "value": -8.8
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#142 | P(fraud) 14% | amount 683.60 units at hour 05 | model indicators: V11=+3.1, V10=-4.9, V14=-8.8 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 143,
+  "risk_score": -0.704,
+  "fraud_probability": 0.3918,
+  "amount": 245.39,
+  "expected_loss_avoided": 96.15,
+  "expected_net_benefit": 91.15,
+  "hour": 5,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 3.4
+   },
+   {
+    "feature": "V17",
+    "value": -9.9
+   },
+   {
+    "feature": "V10",
+    "value": -4.7
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#143 | P(fraud) 39% | amount 245.39 units at hour 05 | model indicators: V4=+3.4, V17=-9.9, V10=-4.7 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 144,
+  "risk_score": -2.938,
+  "fraud_probability": 0.1375,
+  "amount": 692.48,
+  "expected_loss_avoided": 95.21,
+  "expected_net_benefit": 90.21,
+  "hour": 14,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -6.6
+   },
+   {
+    "feature": "V4",
+    "value": 5.9
+   },
+   {
+    "feature": "V14",
+    "value": -11.8
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#144 | P(fraud) 14% | amount 692.48 units at hour 14 | model indicators: V12=-6.6, V4=+5.9, V14=-11.8 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 145,
+  "risk_score": -2.49,
+  "fraud_probability": 0.1741,
+  "amount": 540.68,
+  "expected_loss_avoided": 94.16,
+  "expected_net_benefit": 89.16,
+  "hour": 14,
+  "indicators": [
+   {
+    "feature": "V11",
+    "value": 5.9
+   },
+   {
+    "feature": "V12",
+    "value": -7.8
+   },
+   {
+    "feature": "V4",
+    "value": 1.9
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#145 | P(fraud) 17% | amount 540.68 units at hour 14 | model indicators: V11=+5.9, V12=-7.8, V4=+1.9 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 146,
+  "risk_score": -2.151,
+  "fraud_probability": 0.2068,
+  "amount": 454.76,
+  "expected_loss_avoided": 94.03,
+  "expected_net_benefit": 89.03,
+  "hour": 20,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -4.2
+   },
+   {
+    "feature": "V12",
+    "value": -6.2
+   },
+   {
+    "feature": "V7",
+    "value": -6.6
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#146 | P(fraud) 21% | amount 454.76 units at hour 20 | model indicators: V14=-4.2, V12=-6.2, V7=-6.6 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 147,
+  "risk_score": 2.797,
+  "fraud_probability": 0.8517,
+  "amount": 108.19,
+  "expected_loss_avoided": 92.14,
+  "expected_net_benefit": 87.14,
+  "hour": 17,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 2.0
+   },
+   {
+    "feature": "V12",
+    "value": -7.6
+   },
+   {
+    "feature": "V17",
+    "value": -6.4
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#147 | P(fraud) 85% | amount 108.19 units at hour 17 | model indicators: V4=+2.0, V12=-7.6, V17=-6.4 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 148,
+  "risk_score": 1.347,
+  "fraud_probability": 0.6989,
+  "amount": 131.81,
+  "expected_loss_avoided": 92.13,
+  "expected_net_benefit": 87.13,
+  "hour": 4,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 5.7
+   },
+   {
+    "feature": "V3",
+    "value": -6.7
+   },
+   {
+    "feature": "V14",
+    "value": -7.6
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#148 | P(fraud) 70% | amount 131.81 units at hour 04 | model indicators: V4=+5.7, V3=-6.7, V14=-7.6 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 149,
+  "risk_score": -1.016,
+  "fraud_probability": 0.3463,
+  "amount": 265.74,
+  "expected_loss_avoided": 92.03,
+  "expected_net_benefit": 87.03,
+  "hour": 20,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -4.6
+   },
+   {
+    "feature": "V12",
+    "value": -8.1
+   },
+   {
+    "feature": "V17",
+    "value": -9.2
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#149 | P(fraud) 35% | amount 265.74 units at hour 20 | model indicators: V14=-4.6, V12=-8.1, V17=-9.2 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 150,
+  "risk_score": 1.267,
+  "fraud_probability": 0.6882,
+  "amount": 133.65,
+  "expected_loss_avoided": 91.98,
+  "expected_net_benefit": 86.98,
+  "hour": 1,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -2.5
+   },
+   {
+    "feature": "V7",
+    "value": -7.1
+   },
+   {
+    "feature": "V4",
+    "value": 6.3
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#150 | P(fraud) 69% | amount 133.65 units at hour 01 | model indicators: V14=-2.5, V7=-7.1, V4=+6.3 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 151,
+  "risk_score": -2.942,
+  "fraud_probability": 0.1372,
+  "amount": 664.06,
+  "expected_loss_avoided": 91.11,
+  "expected_net_benefit": 86.11,
+  "hour": 6,
+  "indicators": [
+   {
+    "feature": "V16",
+    "value": -6.5
+   },
+   {
+    "feature": "V12",
+    "value": -6.5
+   },
+   {
+    "feature": "V11",
+    "value": 6.8
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#151 | P(fraud) 14% | amount 664.06 units at hour 06 | model indicators: V16=-6.5, V12=-6.5, V11=+6.8 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 152,
+  "risk_score": 1.798,
+  "fraud_probability": 0.7547,
+  "amount": 120.5,
+  "expected_loss_avoided": 90.94,
+  "expected_net_benefit": 85.94,
+  "hour": 8,
+  "indicators": [
+   {
+    "feature": "V10",
+    "value": -4.7
+   },
+   {
+    "feature": "V12",
+    "value": -6.2
+   },
+   {
+    "feature": "V14",
+    "value": -6.2
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#152 | P(fraud) 75% | amount 120.50 units at hour 08 | model indicators: V10=-4.7, V12=-6.2, V14=-6.2 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 153,
+  "risk_score": 2.851,
+  "fraud_probability": 0.8559,
+  "amount": 105.76,
+  "expected_loss_avoided": 90.52,
+  "expected_net_benefit": 85.52,
+  "hour": 3,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 4.3
+   },
+   {
+    "feature": "V10",
+    "value": -5.0
+   },
+   {
+    "feature": "V11",
+    "value": 3.0
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#153 | P(fraud) 86% | amount 105.76 units at hour 03 | model indicators: V4=+4.3, V10=-5.0, V11=+3.0 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 154,
+  "risk_score": 3.589,
+  "fraud_probability": 0.9041,
+  "amount": 99.97,
+  "expected_loss_avoided": 90.38,
+  "expected_net_benefit": 85.38,
+  "hour": 5,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -7.8
+   },
+   {
+    "feature": "LogAmount",
+    "value": 4.6
+   },
+   {
+    "feature": "V11",
+    "value": 1.7
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#154 | P(fraud) 90% | amount 99.97 units at hour 05 | model indicators: V14=-7.8, LogAmount=+4.6, V11=+1.7 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 155,
+  "risk_score": 2.115,
+  "fraud_probability": 0.7895,
+  "amount": 114.4,
+  "expected_loss_avoided": 90.32,
+  "expected_net_benefit": 85.32,
+  "hour": 10,
+  "indicators": [
+   {
+    "feature": "V10",
+    "value": -3.6
+   },
+   {
+    "feature": "V14",
+    "value": -6.7
+   },
+   {
+    "feature": "V11",
+    "value": 5.7
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#155 | P(fraud) 79% | amount 114.40 units at hour 10 | model indicators: V10=-3.6, V14=-6.7, V11=+5.7 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 156,
+  "risk_score": -1.854,
+  "fraud_probability": 0.2389,
+  "amount": 377.47,
+  "expected_loss_avoided": 90.16,
+  "expected_net_benefit": 85.16,
+  "hour": 6,
+  "indicators": [
+   {
+    "feature": "V11",
+    "value": 2.7
+   },
+   {
+    "feature": "V17",
+    "value": -6.4
+   },
+   {
+    "feature": "V12",
+    "value": -5.4
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#156 | P(fraud) 24% | amount 377.47 units at hour 06 | model indicators: V11=+2.7, V17=-6.4, V12=-5.4 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 157,
+  "risk_score": 4.22,
+  "fraud_probability": 0.9332,
+  "amount": 95.75,
+  "expected_loss_avoided": 89.36,
+  "expected_net_benefit": 84.36,
+  "hour": 4,
+  "indicators": [
+   {
+    "feature": "V3",
+    "value": -4.9
+   },
+   {
+    "feature": "V12",
+    "value": -5.5
+   },
+   {
+    "feature": "V10",
+    "value": -2.3
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#157 | P(fraud) 93% | amount 95.75 units at hour 04 | model indicators: V3=-4.9, V12=-5.5, V10=-2.3 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 158,
+  "risk_score": 4.598,
+  "fraud_probability": 0.9465,
+  "amount": 94.3,
+  "expected_loss_avoided": 89.26,
+  "expected_net_benefit": 84.26,
+  "hour": 6,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 4.6
+   },
+   {
+    "feature": "V3",
+    "value": -3.9
+   },
+   {
+    "feature": "V12",
+    "value": -7.3
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#158 | P(fraud) 95% | amount 94.30 units at hour 06 | model indicators: V4=+4.6, V3=-3.9, V12=-7.3 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 159,
+  "risk_score": -1.619,
+  "fraud_probability": 0.2667,
+  "amount": 334.22,
+  "expected_loss_avoided": 89.12,
+  "expected_net_benefit": 84.12,
+  "hour": 6,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 3.7
+   },
+   {
+    "feature": "V16",
+    "value": 0.1
+   },
+   {
+    "feature": "V12",
+    "value": -4.7
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#159 | P(fraud) 27% | amount 334.22 units at hour 06 | model indicators: V4=+3.7, V16=+0.1, V12=-4.7 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 160,
+  "risk_score": 2.741,
+  "fraud_probability": 0.8472,
+  "amount": 104.43,
+  "expected_loss_avoided": 88.47,
+  "expected_net_benefit": 83.47,
+  "hour": 5,
+  "indicators": [
+   {
+    "feature": "V10",
+    "value": -3.8
+   },
+   {
+    "feature": "V14",
+    "value": -10.6
+   },
+   {
+    "feature": "V4",
+    "value": 3.1
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#160 | P(fraud) 85% | amount 104.43 units at hour 05 | model indicators: V10=-3.8, V14=-10.6, V4=+3.1 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 161,
+  "risk_score": -5.799,
+  "fraud_probability": 0.026,
+  "amount": 3395.96,
+  "expected_loss_avoided": 88.21,
+  "expected_net_benefit": 83.21,
+  "hour": 7,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -6.2
+   },
+   {
+    "feature": "V16",
+    "value": -0.1
+   },
+   {
+    "feature": "V10",
+    "value": -6.1
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#161 | P(fraud) 3% | amount 3,395.96 units at hour 07 | model indicators: V12=-6.2, V16=-0.1, V10=-6.1 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 162,
+  "risk_score": 2.105,
+  "fraud_probability": 0.7885,
+  "amount": 110.93,
+  "expected_loss_avoided": 87.47,
+  "expected_net_benefit": 82.47,
+  "hour": 0,
+  "indicators": [
+   {
+    "feature": "V10",
+    "value": -2.4
+   },
+   {
+    "feature": "LogAmount",
+    "value": 4.7
+   },
+   {
+    "feature": "V11",
+    "value": 2.8
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#162 | P(fraud) 79% | amount 110.93 units at hour 00 | model indicators: V10=-2.4, LogAmount=+4.7, V11=+2.8 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 163,
+  "risk_score": 4.082,
+  "fraud_probability": 0.9277,
+  "amount": 94.25,
+  "expected_loss_avoided": 87.43,
+  "expected_net_benefit": 82.43,
+  "hour": 14,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -6.1
+   },
+   {
+    "feature": "V3",
+    "value": -6.6
+   },
+   {
+    "feature": "LogAmount",
+    "value": 4.6
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#163 | P(fraud) 93% | amount 94.25 units at hour 14 | model indicators: V14=-6.1, V3=-6.6, LogAmount=+4.6 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 164,
+  "risk_score": 2.585,
+  "fraud_probability": 0.8342,
+  "amount": 103.6,
+  "expected_loss_avoided": 86.42,
+  "expected_net_benefit": 81.42,
+  "hour": 15,
+  "indicators": [
+   {
+    "feature": "V10",
+    "value": -4.4
+   },
+   {
+    "feature": "V17",
+    "value": -4.8
+   },
+   {
+    "feature": "V14",
+    "value": -7.4
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#164 | P(fraud) 83% | amount 103.60 units at hour 15 | model indicators: V10=-4.4, V17=-4.8, V14=-7.4 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 165,
+  "risk_score": -2.606,
+  "fraud_probability": 0.164,
+  "amount": 515.09,
+  "expected_loss_avoided": 84.48,
+  "expected_net_benefit": 79.48,
+  "hour": 14,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -11.9
+   },
+   {
+    "feature": "V10",
+    "value": -5.5
+   },
+   {
+    "feature": "V16",
+    "value": -6.2
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#165 | P(fraud) 16% | amount 515.09 units at hour 14 | model indicators: V14=-11.9, V10=-5.5, V16=-6.2 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 166,
+  "risk_score": 4.047,
+  "fraud_probability": 0.9262,
+  "amount": 91.01,
+  "expected_loss_avoided": 84.29,
+  "expected_net_benefit": 79.29,
+  "hour": 0,
+  "indicators": [
+   {
+    "feature": "LogAmount",
+    "value": 4.5
+   },
+   {
+    "feature": "V4",
+    "value": 4.0
+   },
+   {
+    "feature": "V12",
+    "value": -5.7
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#166 | P(fraud) 93% | amount 91.01 units at hour 00 | model indicators: LogAmount=+4.5, V4=+4.0, V12=-5.7 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 167,
+  "risk_score": -3.091,
+  "fraud_probability": 0.1266,
+  "amount": 650.55,
+  "expected_loss_avoided": 82.33,
+  "expected_net_benefit": 77.33,
+  "hour": 16,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -7.8
+   },
+   {
+    "feature": "V10",
+    "value": -3.4
+   },
+   {
+    "feature": "V3",
+    "value": -1.6
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#167 | P(fraud) 13% | amount 650.55 units at hour 16 | model indicators: V14=-7.8, V10=-3.4, V3=-1.6 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 168,
+  "risk_score": 4.362,
+  "fraud_probability": 0.9386,
+  "amount": 87.66,
+  "expected_loss_avoided": 82.27,
+  "expected_net_benefit": 77.27,
+  "hour": 20,
+  "indicators": [
+   {
+    "feature": "V11",
+    "value": 4.2
+   },
+   {
+    "feature": "V4",
+    "value": 5.3
+   },
+   {
+    "feature": "V14",
+    "value": -4.7
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#168 | P(fraud) 94% | amount 87.66 units at hour 20 | model indicators: V11=+4.2, V4=+5.3, V14=-4.7 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 169,
+  "risk_score": -2.959,
+  "fraud_probability": 0.136,
+  "amount": 602.03,
+  "expected_loss_avoided": 81.86,
+  "expected_net_benefit": 76.86,
+  "hour": 8,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -8.0
+   },
+   {
+    "feature": "V12",
+    "value": -6.6
+   },
+   {
+    "feature": "V11",
+    "value": 5.0
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#169 | P(fraud) 14% | amount 602.03 units at hour 08 | model indicators: V14=-8.0, V12=-6.6, V11=+5.0 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 170,
+  "risk_score": -1.399,
+  "fraud_probability": 0.2943,
+  "amount": 277.12,
+  "expected_loss_avoided": 81.56,
+  "expected_net_benefit": 76.56,
+  "hour": 9,
+  "indicators": [
+   {
+    "feature": "V16",
+    "value": -8.2
+   },
+   {
+    "feature": "V14",
+    "value": -5.1
+   },
+   {
+    "feature": "V17",
+    "value": -5.0
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#170 | P(fraud) 29% | amount 277.12 units at hour 09 | model indicators: V16=-8.2, V14=-5.1, V17=-5.0 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 171,
+  "risk_score": -3.483,
+  "fraud_probability": 0.1018,
+  "amount": 797.35,
+  "expected_loss_avoided": 81.19,
+  "expected_net_benefit": 76.19,
+  "hour": 12,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 4.2
+   },
+   {
+    "feature": "V17",
+    "value": -5.6
+   },
+   {
+    "feature": "V11",
+    "value": 3.0
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#171 | P(fraud) 10% | amount 797.35 units at hour 12 | model indicators: V4=+4.2, V17=-5.6, V11=+3.0 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 172,
+  "risk_score": -1.359,
+  "fraud_probability": 0.2996,
+  "amount": 268.04,
+  "expected_loss_avoided": 80.3,
+  "expected_net_benefit": 75.3,
+  "hour": 11,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 6.9
+   },
+   {
+    "feature": "V3",
+    "value": -5.0
+   },
+   {
+    "feature": "V10",
+    "value": -1.0
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#172 | P(fraud) 30% | amount 268.04 units at hour 11 | model indicators: V4=+6.9, V3=-5.0, V10=-1.0 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 173,
+  "risk_score": -2.267,
+  "fraud_probability": 0.1951,
+  "amount": 410.76,
+  "expected_loss_avoided": 80.15,
+  "expected_net_benefit": 75.15,
+  "hour": 18,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -11.0
+   },
+   {
+    "feature": "V10",
+    "value": -1.4
+   },
+   {
+    "feature": "V4",
+    "value": 4.8
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#173 | P(fraud) 20% | amount 410.76 units at hour 18 | model indicators: V14=-11.0, V10=-1.4, V4=+4.8 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 174,
+  "risk_score": -5.204,
+  "fraud_probability": 0.0372,
+  "amount": 2098.99,
+  "expected_loss_avoided": 78.16,
+  "expected_net_benefit": 73.16,
+  "hour": 14,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 3.9
+   },
+   {
+    "feature": "V14",
+    "value": -8.4
+   },
+   {
+    "feature": "V3",
+    "value": -6.0
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#174 | P(fraud) 4% | amount 2,098.99 units at hour 14 | model indicators: V4=+3.9, V14=-8.4, V3=-6.0 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 175,
+  "risk_score": 1.977,
+  "fraud_probability": 0.7748,
+  "amount": 100.1,
+  "expected_loss_avoided": 77.55,
+  "expected_net_benefit": 72.55,
+  "hour": 16,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -10.1
+   },
+   {
+    "feature": "V3",
+    "value": -8.7
+   },
+   {
+    "feature": "V12",
+    "value": -4.6
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#175 | P(fraud) 77% | amount 100.10 units at hour 16 | model indicators: V14=-10.1, V3=-8.7, V12=-4.6 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 176,
+  "risk_score": 2.375,
+  "fraud_probability": 0.8153,
+  "amount": 94.22,
+  "expected_loss_avoided": 76.81,
+  "expected_net_benefit": 71.81,
+  "hour": 0,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -3.6
+   },
+   {
+    "feature": "V10",
+    "value": -3.6
+   },
+   {
+    "feature": "LogAmount",
+    "value": 4.6
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#176 | P(fraud) 82% | amount 94.22 units at hour 00 | model indicators: V12=-3.6, V10=-3.6, LogAmount=+4.6 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 177,
+  "risk_score": -5.228,
+  "fraud_probability": 0.0367,
+  "amount": 2088.34,
+  "expected_loss_avoided": 76.64,
+  "expected_net_benefit": 71.64,
+  "hour": 15,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 3.8
+   },
+   {
+    "feature": "V12",
+    "value": -4.9
+   },
+   {
+    "feature": "V7",
+    "value": -1.7
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#177 | P(fraud) 4% | amount 2,088.34 units at hour 15 | model indicators: V4=+3.8, V12=-4.9, V7=-1.7 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 178,
+  "risk_score": -3.23,
+  "fraud_probability": 0.1173,
+  "amount": 651.51,
+  "expected_loss_avoided": 76.41,
+  "expected_net_benefit": 71.41,
+  "hour": 2,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -9.6
+   },
+   {
+    "feature": "V16",
+    "value": -6.9
+   },
+   {
+    "feature": "V12",
+    "value": -7.9
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#178 | P(fraud) 12% | amount 651.51 units at hour 02 | model indicators: V14=-9.6, V16=-6.9, V12=-7.9 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 179,
+  "risk_score": -2.329,
+  "fraud_probability": 0.1892,
+  "amount": 397.06,
+  "expected_loss_avoided": 75.12,
+  "expected_net_benefit": 70.12,
+  "hour": 18,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -5.9
+   },
+   {
+    "feature": "V3",
+    "value": -6.3
+   },
+   {
+    "feature": "V12",
+    "value": -6.6
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#179 | P(fraud) 19% | amount 397.06 units at hour 18 | model indicators: V14=-5.9, V3=-6.3, V12=-6.6 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 180,
+  "risk_score": 2.117,
+  "fraud_probability": 0.7897,
+  "amount": 94.91,
+  "expected_loss_avoided": 74.95,
+  "expected_net_benefit": 69.95,
+  "hour": 5,
+  "indicators": [
+   {
+    "feature": "V7",
+    "value": -3.6
+   },
+   {
+    "feature": "V4",
+    "value": 7.6
+   },
+   {
+    "feature": "V3",
+    "value": -5.2
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#180 | P(fraud) 79% | amount 94.91 units at hour 05 | model indicators: V7=-3.6, V4=+7.6, V3=-5.2 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 181,
+  "risk_score": -2.628,
+  "fraud_probability": 0.1621,
+  "amount": 455.32,
+  "expected_loss_avoided": 73.8,
+  "expected_net_benefit": 68.8,
+  "hour": 2,
+  "indicators": [
+   {
+    "feature": "V17",
+    "value": -8.0
+   },
+   {
+    "feature": "V12",
+    "value": -5.4
+   },
+   {
+    "feature": "V4",
+    "value": 5.8
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#181 | P(fraud) 16% | amount 455.32 units at hour 02 | model indicators: V17=-8.0, V12=-5.4, V4=+5.8 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 182,
+  "risk_score": -3.597,
+  "fraud_probability": 0.0955,
+  "amount": 772.62,
+  "expected_loss_avoided": 73.8,
+  "expected_net_benefit": 68.8,
+  "hour": 6,
+  "indicators": [
+   {
+    "feature": "V10",
+    "value": -5.2
+   },
+   {
+    "feature": "V17",
+    "value": -4.5
+   },
+   {
+    "feature": "V14",
+    "value": -7.8
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#182 | P(fraud) 10% | amount 772.62 units at hour 06 | model indicators: V10=-5.2, V17=-4.5, V14=-7.8 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 183,
+  "risk_score": -4.474,
+  "fraud_probability": 0.0575,
+  "amount": 1278.8,
+  "expected_loss_avoided": 73.58,
+  "expected_net_benefit": 68.58,
+  "hour": 18,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -2.8
+   },
+   {
+    "feature": "V11",
+    "value": 4.3
+   },
+   {
+    "feature": "V4",
+    "value": 3.5
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#183 | P(fraud) 6% | amount 1,278.80 units at hour 18 | model indicators: V12=-2.8, V11=+4.3, V4=+3.5 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 184,
+  "risk_score": 3.212,
+  "fraud_probability": 0.8816,
+  "amount": 83.26,
+  "expected_loss_avoided": 73.4,
+  "expected_net_benefit": 68.4,
+  "hour": 0,
+  "indicators": [
+   {
+    "feature": "V11",
+    "value": 3.3
+   },
+   {
+    "feature": "V4",
+    "value": 1.5
+   },
+   {
+    "feature": "V7",
+    "value": -7.1
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#184 | P(fraud) 88% | amount 83.26 units at hour 00 | model indicators: V11=+3.3, V4=+1.5, V7=-7.1 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 185,
+  "risk_score": 2.72,
+  "fraud_probability": 0.8455,
+  "amount": 86.22,
+  "expected_loss_avoided": 72.9,
+  "expected_net_benefit": 67.9,
+  "hour": 0,
+  "indicators": [
+   {
+    "feature": "V16",
+    "value": -3.3
+   },
+   {
+    "feature": "V14",
+    "value": -9.4
+   },
+   {
+    "feature": "V10",
+    "value": -6.8
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#185 | P(fraud) 85% | amount 86.22 units at hour 00 | model indicators: V16=-3.3, V14=-9.4, V10=-6.8 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 186,
+  "risk_score": -1.637,
+  "fraud_probability": 0.2644,
+  "amount": 275.42,
+  "expected_loss_avoided": 72.82,
+  "expected_net_benefit": 67.82,
+  "hour": 12,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -6.8
+   },
+   {
+    "feature": "V17",
+    "value": -8.5
+   },
+   {
+    "feature": "V10",
+    "value": -7.0
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#186 | P(fraud) 26% | amount 275.42 units at hour 12 | model indicators: V14=-6.8, V17=-8.5, V10=-7.0 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 187,
+  "risk_score": -3.785,
+  "fraud_probability": 0.0858,
+  "amount": 846.79,
+  "expected_loss_avoided": 72.68,
+  "expected_net_benefit": 67.68,
+  "hour": 23,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -3.8
+   },
+   {
+    "feature": "V7",
+    "value": -1.4
+   },
+   {
+    "feature": "V17",
+    "value": -1.7
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#187 | P(fraud) 9% | amount 846.79 units at hour 23 | model indicators: V12=-3.8, V7=-1.4, V17=-1.7 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 188,
+  "risk_score": 5.347,
+  "fraud_probability": 0.9658,
+  "amount": 74.76,
+  "expected_loss_avoided": 72.21,
+  "expected_net_benefit": 67.21,
+  "hour": 5,
+  "indicators": [
+   {
+    "feature": "V10",
+    "value": -8.8
+   },
+   {
+    "feature": "V3",
+    "value": -3.5
+   },
+   {
+    "feature": "V17",
+    "value": -6.4
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#188 | P(fraud) 97% | amount 74.76 units at hour 05 | model indicators: V10=-8.8, V3=-3.5, V17=-6.4 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 189,
+  "risk_score": -2.153,
+  "fraud_probability": 0.2065,
+  "amount": 348.44,
+  "expected_loss_avoided": 71.97,
+  "expected_net_benefit": 66.97,
+  "hour": 21,
+  "indicators": [
+   {
+    "feature": "V17",
+    "value": -8.5
+   },
+   {
+    "feature": "V16",
+    "value": -3.5
+   },
+   {
+    "feature": "V12",
+    "value": -8.5
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#189 | P(fraud) 21% | amount 348.44 units at hour 21 | model indicators: V17=-8.5, V16=-3.5, V12=-8.5 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 190,
+  "risk_score": -2.259,
+  "fraud_probability": 0.1959,
+  "amount": 367.1,
+  "expected_loss_avoided": 71.93,
+  "expected_net_benefit": 66.93,
+  "hour": 16,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -6.8
+   },
+   {
+    "feature": "V17",
+    "value": -5.3
+   },
+   {
+    "feature": "V7",
+    "value": -4.7
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#190 | P(fraud) 20% | amount 367.10 units at hour 16 | model indicators: V12=-6.8, V17=-5.3, V7=-4.7 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 191,
+  "risk_score": 3.433,
+  "fraud_probability": 0.8953,
+  "amount": 80.2,
+  "expected_loss_avoided": 71.8,
+  "expected_net_benefit": 66.8,
+  "hour": 1,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 4.4
+   },
+   {
+    "feature": "V17",
+    "value": -6.9
+   },
+   {
+    "feature": "V12",
+    "value": -6.9
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#191 | P(fraud) 90% | amount 80.20 units at hour 01 | model indicators: V4=+4.4, V17=-6.9, V12=-6.9 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 192,
+  "risk_score": -2.253,
+  "fraud_probability": 0.1965,
+  "amount": 357.84,
+  "expected_loss_avoided": 70.32,
+  "expected_net_benefit": 65.32,
+  "hour": 16,
+  "indicators": [
+   {
+    "feature": "V7",
+    "value": -3.0
+   },
+   {
+    "feature": "V3",
+    "value": -4.8
+   },
+   {
+    "feature": "V12",
+    "value": -4.2
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#192 | P(fraud) 20% | amount 357.84 units at hour 16 | model indicators: V7=-3.0, V3=-4.8, V12=-4.2 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 193,
+  "risk_score": -4.094,
+  "fraud_probability": 0.0718,
+  "amount": 974.25,
+  "expected_loss_avoided": 69.98,
+  "expected_net_benefit": 64.98,
+  "hour": 22,
+  "indicators": [
+   {
+    "feature": "V11",
+    "value": 5.2
+   },
+   {
+    "feature": "V7",
+    "value": -4.7
+   },
+   {
+    "feature": "V17",
+    "value": -6.5
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#193 | P(fraud) 7% | amount 974.25 units at hour 22 | model indicators: V11=+5.2, V7=-4.7, V17=-6.5 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 194,
+  "risk_score": -6.355,
+  "fraud_probability": 0.0185,
+  "amount": 3757.89,
+  "expected_loss_avoided": 69.49,
+  "expected_net_benefit": 64.49,
+  "hour": 21,
+  "indicators": [
+   {
+    "feature": "V11",
+    "value": 4.7
+   },
+   {
+    "feature": "V10",
+    "value": -3.7
+   },
+   {
+    "feature": "V3",
+    "value": -8.0
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#194 | P(fraud) 2% | amount 3,757.89 units at hour 21 | model indicators: V11=+4.7, V10=-3.7, V3=-8.0 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 195,
+  "risk_score": 5.054,
+  "fraud_probability": 0.9592,
+  "amount": 69.58,
+  "expected_loss_avoided": 66.74,
+  "expected_net_benefit": 61.74,
+  "hour": 5,
+  "indicators": [
+   {
+    "feature": "V17",
+    "value": -7.0
+   },
+   {
+    "feature": "V3",
+    "value": -7.8
+   },
+   {
+    "feature": "V4",
+    "value": 4.2
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#195 | P(fraud) 96% | amount 69.58 units at hour 05 | model indicators: V17=-7.0, V3=-7.8, V4=+4.2 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 196,
+  "risk_score": -2.003,
+  "fraud_probability": 0.2224,
+  "amount": 297.41,
+  "expected_loss_avoided": 66.14,
+  "expected_net_benefit": 61.14,
+  "hour": 4,
+  "indicators": [
+   {
+    "feature": "V3",
+    "value": 0.1
+   },
+   {
+    "feature": "V4",
+    "value": 3.5
+   },
+   {
+    "feature": "V14",
+    "value": -9.1
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#196 | P(fraud) 22% | amount 297.41 units at hour 04 | model indicators: V3=+0.1, V4=+3.5, V14=-9.1 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 197,
+  "risk_score": 2.549,
+  "fraud_probability": 0.8311,
+  "amount": 79.18,
+  "expected_loss_avoided": 65.8,
+  "expected_net_benefit": 60.8,
+  "hour": 2,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -4.0
+   },
+   {
+    "feature": "V10",
+    "value": -2.6
+   },
+   {
+    "feature": "V16",
+    "value": -2.9
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#197 | P(fraud) 83% | amount 79.18 units at hour 02 | model indicators: V12=-4.0, V10=-2.6, V16=-2.9 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 198,
+  "risk_score": -2.32,
+  "fraud_probability": 0.19,
+  "amount": 346.11,
+  "expected_loss_avoided": 65.78,
+  "expected_net_benefit": 60.78,
+  "hour": 12,
+  "indicators": [
+   {
+    "feature": "V12",
+    "value": -7.2
+   },
+   {
+    "feature": "V17",
+    "value": -1.4
+   },
+   {
+    "feature": "V14",
+    "value": -7.5
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#198 | P(fraud) 19% | amount 346.11 units at hour 12 | model indicators: V12=-7.2, V17=-1.4, V14=-7.5 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ },
+ {
+  "rank": 199,
+  "risk_score": -2.748,
+  "fraud_probability": 0.1522,
+  "amount": 429.09,
+  "expected_loss_avoided": 65.32,
+  "expected_net_benefit": 60.32,
+  "hour": 3,
+  "indicators": [
+   {
+    "feature": "V4",
+    "value": 5.2
+   },
+   {
+    "feature": "V11",
+    "value": 5.1
+   },
+   {
+    "feature": "V12",
+    "value": -5.5
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#199 | P(fraud) 15% | amount 429.09 units at hour 03 | model indicators: V4=+5.2, V11=+5.1, V12=-5.5 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 1
+ },
+ {
+  "rank": 200,
+  "risk_score": -4.358,
+  "fraud_probability": 0.0616,
+  "amount": 1046.51,
+  "expected_loss_avoided": 64.45,
+  "expected_net_benefit": 59.45,
+  "hour": 3,
+  "indicators": [
+   {
+    "feature": "V14",
+    "value": -5.9
+   },
+   {
+    "feature": "V11",
+    "value": 2.4
+   },
+   {
+    "feature": "V3",
+    "value": -3.5
+   }
+  ],
+  "action": "STANDARD REVIEW",
+  "note": "#200 | P(fraud) 6% | amount 1,046.51 units at hour 03 | model indicators: V14=-5.9, V11=+2.4, V3=-3.5 | action: STANDARD REVIEW",
+  "status": "PENDING_APPROVAL",
+  "actual_class": 0
+ }
+]

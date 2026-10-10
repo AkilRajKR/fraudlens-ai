@@ -1,0 +1,28 @@
+{
+ "data_source": "synthetic-sample",
+ "generated_at": "2026-10-10T09:03:25+00:00",
+ "policy": "cost-sensitive",
+ "indicator_method": "SHAP",
+ "alerts_per_day": 200,
+ "rows_scored": 141822,
+ "day_frauds": 142,
+ "base_rate": 0.0010012550944141247,
+ "tp": 115,
+ "fp": 85,
+ "fn": 27,
+ "precision_at_k": 0.575,
+ "recall_at_k": 0.8098591549295775,
+ "pr_auc": 0.81,
+ "cost_no_model": 50555.87,
+ "cost_policy": 3760.76,
+ "savings": 46795.11,
+ "cost_reduction_pct": 92.6,
+ "stability": 0.67,
+ "unit": "units",
+ "assumptions": {
+  "review_cost": 5.0,
+  "loss_rate": 1.0,
+  "fixed_fraud_cost": 0.0,
+  "false_alarm_friction": 0.0
+ }
+}
